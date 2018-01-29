@@ -1,0 +1,309 @@
+3.5138 	WARNING 	unknown type:participant
+3.5139 	WARNING 	unknown type:session
+4.2106 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x11c557510>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2560, 1080]), stereo=False, units=u'norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.2107 	EXP 	window1: recordFrameIntervals = False
+4.3770 	EXP 	window1: recordFrameIntervals = True
+4.6099 	EXP 	window1: recordFrameIntervals = False
+4.7011 	EXP 	Created instrTxt = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='instrTxt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+4.7018 	EXP 	Created interStimInt = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='interStimInt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+4.7132 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units=u'norm', win=Window(...), wrapWidth=1)
+4.7280 	EXP 	instrTxt: autoDraw = True
+5.5297 	DATA 	Mouse: Left button down, pos=(1433,1014)
+5.6608 	DATA 	Mouse:  Left button up, pos=(1433,1014)
+6.3615 	DATA 	Keypress: space
+6.4051 	EXP 	Imported stimuli.xlsx as conditions, 37 conditions, 2 params
+6.4056 	EXP 	Created sequence: random, trialTypes=37, nReps=1, seed=None
+6.4060 	EXP 	New trial (rep=0, index=0): OrderedDict([(u'stimulus', 9), (u'category', u'number')])
+6.4259 	EXP 	instrTxt: autoDraw = False
+6.4259 	EXP 	interStimInt: autoDraw = False
+6.4259 	EXP 	text: text = 9
+6.4259 	EXP 	text: autoDraw = True
+6.4457 	EXP 	New trial (rep=0, index=1): OrderedDict([(u'stimulus', u'Q'), (u'category', u'letter')])
+6.4603 	EXP 	text: autoDraw = False
+6.4603 	EXP 	text: autoDraw = False
+6.4603 	EXP 	interStimInt: autoDraw = True
+6.4936 	EXP 	interStimInt: autoDraw = False
+6.4936 	EXP 	interStimInt: autoDraw = False
+6.4936 	EXP 	text: text = u'Q'
+6.4936 	EXP 	text: autoDraw = True
+6.5274 	EXP 	New trial (rep=0, index=2): OrderedDict([(u'stimulus', u'H'), (u'category', u'letter')])
+6.5455 	EXP 	text: autoDraw = False
+6.5455 	EXP 	text: autoDraw = False
+6.5455 	EXP 	interStimInt: autoDraw = True
+6.5772 	EXP 	interStimInt: autoDraw = False
+6.5772 	EXP 	interStimInt: autoDraw = False
+6.5772 	EXP 	text: text = u'H'
+6.5772 	EXP 	text: autoDraw = True
+6.6109 	EXP 	New trial (rep=0, index=3): OrderedDict([(u'stimulus', 8), (u'category', u'number')])
+6.6269 	EXP 	text: autoDraw = False
+6.6269 	EXP 	text: autoDraw = False
+6.6269 	EXP 	interStimInt: autoDraw = True
+6.6603 	EXP 	interStimInt: autoDraw = False
+6.6603 	EXP 	interStimInt: autoDraw = False
+6.6603 	EXP 	text: text = 8
+6.6603 	EXP 	text: autoDraw = True
+6.6943 	EXP 	New trial (rep=0, index=4): OrderedDict([(u'stimulus', u'N'), (u'category', u'letter')])
+6.7100 	EXP 	text: autoDraw = False
+6.7100 	EXP 	text: autoDraw = False
+6.7100 	EXP 	interStimInt: autoDraw = True
+6.7453 	EXP 	interStimInt: autoDraw = False
+6.7453 	EXP 	interStimInt: autoDraw = False
+6.7453 	EXP 	text: text = u'N'
+6.7453 	EXP 	text: autoDraw = True
+6.7775 	EXP 	New trial (rep=0, index=5): OrderedDict([(u'stimulus', u'W'), (u'category', u'letter')])
+6.7936 	EXP 	text: autoDraw = False
+6.7936 	EXP 	text: autoDraw = False
+6.7936 	EXP 	interStimInt: autoDraw = True
+6.8274 	EXP 	interStimInt: autoDraw = False
+6.8274 	EXP 	interStimInt: autoDraw = False
+6.8274 	EXP 	text: text = u'W'
+6.8274 	EXP 	text: autoDraw = True
+6.8610 	EXP 	New trial (rep=0, index=6): OrderedDict([(u'stimulus', 4), (u'category', u'number')])
+6.8769 	EXP 	text: autoDraw = False
+6.8769 	EXP 	text: autoDraw = False
+6.8769 	EXP 	interStimInt: autoDraw = True
+6.9100 	EXP 	interStimInt: autoDraw = False
+6.9100 	EXP 	interStimInt: autoDraw = False
+6.9100 	EXP 	text: text = 4
+6.9100 	EXP 	text: autoDraw = True
+6.9456 	EXP 	New trial (rep=0, index=7): OrderedDict([(u'stimulus', u'E'), (u'category', u'letter')])
+6.9603 	EXP 	text: autoDraw = False
+6.9603 	EXP 	text: autoDraw = False
+6.9603 	EXP 	interStimInt: autoDraw = True
+6.9937 	EXP 	interStimInt: autoDraw = False
+6.9937 	EXP 	interStimInt: autoDraw = False
+6.9937 	EXP 	text: text = u'E'
+6.9937 	EXP 	text: autoDraw = True
+7.0275 	EXP 	New trial (rep=0, index=8): OrderedDict([(u'stimulus', u'L'), (u'category', u'letter')])
+7.0436 	EXP 	text: autoDraw = False
+7.0436 	EXP 	text: autoDraw = False
+7.0436 	EXP 	interStimInt: autoDraw = True
+7.0769 	EXP 	interStimInt: autoDraw = False
+7.0769 	EXP 	interStimInt: autoDraw = False
+7.0769 	EXP 	text: text = u'L'
+7.0769 	EXP 	text: autoDraw = True
+7.1107 	EXP 	New trial (rep=0, index=9): OrderedDict([(u'stimulus', u'U'), (u'category', u'letter')])
+7.1264 	EXP 	text: autoDraw = False
+7.1264 	EXP 	text: autoDraw = False
+7.1264 	EXP 	interStimInt: autoDraw = True
+7.1614 	EXP 	interStimInt: autoDraw = False
+7.1614 	EXP 	interStimInt: autoDraw = False
+7.1614 	EXP 	text: text = u'U'
+7.1614 	EXP 	text: autoDraw = True
+7.1943 	EXP 	New trial (rep=0, index=10): OrderedDict([(u'stimulus', u'B'), (u'category', u'letter')])
+7.2103 	EXP 	text: autoDraw = False
+7.2103 	EXP 	text: autoDraw = False
+7.2103 	EXP 	interStimInt: autoDraw = True
+7.2437 	EXP 	interStimInt: autoDraw = False
+7.2437 	EXP 	interStimInt: autoDraw = False
+7.2437 	EXP 	text: text = u'B'
+7.2437 	EXP 	text: autoDraw = True
+7.2775 	EXP 	New trial (rep=0, index=11): OrderedDict([(u'stimulus', u'S'), (u'category', u'letter')])
+7.2937 	EXP 	text: autoDraw = False
+7.2937 	EXP 	text: autoDraw = False
+7.2937 	EXP 	interStimInt: autoDraw = True
+7.3271 	EXP 	interStimInt: autoDraw = False
+7.3271 	EXP 	interStimInt: autoDraw = False
+7.3271 	EXP 	text: text = u'S'
+7.3271 	EXP 	text: autoDraw = True
+7.3627 	EXP 	New trial (rep=0, index=12): OrderedDict([(u'stimulus', u'R'), (u'category', u'letter')])
+7.3770 	EXP 	text: autoDraw = False
+7.3770 	EXP 	text: autoDraw = False
+7.3770 	EXP 	interStimInt: autoDraw = True
+7.4104 	EXP 	interStimInt: autoDraw = False
+7.4104 	EXP 	interStimInt: autoDraw = False
+7.4104 	EXP 	text: text = u'R'
+7.4104 	EXP 	text: autoDraw = True
+7.4438 	EXP 	New trial (rep=0, index=13): OrderedDict([(u'stimulus', u'T'), (u'category', u'letter')])
+7.4624 	EXP 	text: autoDraw = False
+7.4624 	EXP 	text: autoDraw = False
+7.4624 	EXP 	interStimInt: autoDraw = True
+7.4937 	EXP 	interStimInt: autoDraw = False
+7.4937 	EXP 	interStimInt: autoDraw = False
+7.4937 	EXP 	text: text = u'T'
+7.4937 	EXP 	text: autoDraw = True
+7.5276 	EXP 	New trial (rep=0, index=14): OrderedDict([(u'stimulus', 1), (u'category', u'number')])
+7.5436 	EXP 	text: autoDraw = False
+7.5436 	EXP 	text: autoDraw = False
+7.5436 	EXP 	interStimInt: autoDraw = True
+7.5769 	EXP 	interStimInt: autoDraw = False
+7.5769 	EXP 	interStimInt: autoDraw = False
+7.5769 	EXP 	text: text = 1
+7.5769 	EXP 	text: autoDraw = True
+7.6110 	EXP 	New trial (rep=0, index=15): OrderedDict([(u'stimulus', 7), (u'category', u'number')])
+7.6271 	EXP 	text: autoDraw = False
+7.6271 	EXP 	text: autoDraw = False
+7.6271 	EXP 	interStimInt: autoDraw = True
+7.6622 	EXP 	interStimInt: autoDraw = False
+7.6622 	EXP 	interStimInt: autoDraw = False
+7.6622 	EXP 	text: text = 7
+7.6622 	EXP 	text: autoDraw = True
+7.6943 	EXP 	New trial (rep=0, index=16): OrderedDict([(u'stimulus', 3), (u'category', u'number')])
+7.7103 	EXP 	text: autoDraw = False
+7.7103 	EXP 	text: autoDraw = False
+7.7103 	EXP 	interStimInt: autoDraw = True
+7.7437 	EXP 	interStimInt: autoDraw = False
+7.7437 	EXP 	interStimInt: autoDraw = False
+7.7437 	EXP 	text: text = 3
+7.7437 	EXP 	text: autoDraw = True
+7.7776 	EXP 	New trial (rep=0, index=17): OrderedDict([(u'stimulus', u'G'), (u'category', u'letter')])
+7.7936 	EXP 	text: autoDraw = False
+7.7936 	EXP 	text: autoDraw = False
+7.7936 	EXP 	interStimInt: autoDraw = True
+7.8270 	EXP 	interStimInt: autoDraw = False
+7.8270 	EXP 	interStimInt: autoDraw = False
+7.8270 	EXP 	text: text = u'G'
+7.8270 	EXP 	text: autoDraw = True
+7.8619 	EXP 	New trial (rep=0, index=18): OrderedDict([(u'stimulus', u'M'), (u'category', u'letter')])
+7.8770 	EXP 	text: autoDraw = False
+7.8770 	EXP 	text: autoDraw = False
+7.8770 	EXP 	interStimInt: autoDraw = True
+7.9100 	EXP 	interStimInt: autoDraw = False
+7.9100 	EXP 	interStimInt: autoDraw = False
+7.9100 	EXP 	text: text = u'M'
+7.9100 	EXP 	text: autoDraw = True
+7.9443 	EXP 	New trial (rep=0, index=19): OrderedDict([(u'stimulus', 2), (u'category', u'number')])
+7.9619 	EXP 	text: autoDraw = False
+7.9619 	EXP 	text: autoDraw = False
+7.9619 	EXP 	interStimInt: autoDraw = True
+7.9938 	EXP 	interStimInt: autoDraw = False
+7.9938 	EXP 	interStimInt: autoDraw = False
+7.9938 	EXP 	text: text = 2
+7.9938 	EXP 	text: autoDraw = True
+8.0275 	EXP 	New trial (rep=0, index=20): OrderedDict([(u'stimulus', u'P'), (u'category', u'letter')])
+8.0436 	EXP 	text: autoDraw = False
+8.0436 	EXP 	text: autoDraw = False
+8.0436 	EXP 	interStimInt: autoDraw = True
+8.0771 	EXP 	interStimInt: autoDraw = False
+8.0771 	EXP 	interStimInt: autoDraw = False
+8.0771 	EXP 	text: text = u'P'
+8.0771 	EXP 	text: autoDraw = True
+8.1118 	EXP 	New trial (rep=0, index=21): OrderedDict([(u'stimulus', u'Z'), (u'category', u'letter')])
+8.1270 	EXP 	text: autoDraw = False
+8.1270 	EXP 	text: autoDraw = False
+8.1270 	EXP 	interStimInt: autoDraw = True
+8.1619 	EXP 	interStimInt: autoDraw = False
+8.1619 	EXP 	interStimInt: autoDraw = False
+8.1619 	EXP 	text: text = u'Z'
+8.1619 	EXP 	text: autoDraw = True
+8.1937 	EXP 	New trial (rep=0, index=22): OrderedDict([(u'stimulus', u'J'), (u'category', u'letter')])
+8.2105 	EXP 	text: autoDraw = False
+8.2105 	EXP 	text: autoDraw = False
+8.2105 	EXP 	interStimInt: autoDraw = True
+8.2438 	EXP 	interStimInt: autoDraw = False
+8.2438 	EXP 	interStimInt: autoDraw = False
+8.2438 	EXP 	text: text = u'J'
+8.2438 	EXP 	text: autoDraw = True
+8.2776 	EXP 	New trial (rep=0, index=23): OrderedDict([(u'stimulus', 5), (u'category', u'number')])
+8.2937 	EXP 	text: autoDraw = False
+8.2937 	EXP 	text: autoDraw = False
+8.2937 	EXP 	interStimInt: autoDraw = True
+8.3271 	EXP 	interStimInt: autoDraw = False
+8.3271 	EXP 	interStimInt: autoDraw = False
+8.3271 	EXP 	text: text = 5
+8.3271 	EXP 	text: autoDraw = True
+8.3626 	EXP 	New trial (rep=0, index=24): OrderedDict([(u'stimulus', u'F'), (u'category', u'letter')])
+8.3771 	EXP 	text: autoDraw = False
+8.3771 	EXP 	text: autoDraw = False
+8.3771 	EXP 	interStimInt: autoDraw = True
+8.4104 	EXP 	interStimInt: autoDraw = False
+8.4104 	EXP 	interStimInt: autoDraw = False
+8.4104 	EXP 	text: text = u'F'
+8.4104 	EXP 	text: autoDraw = True
+8.4444 	EXP 	New trial (rep=0, index=25): OrderedDict([(u'stimulus', u'Y'), (u'category', u'letter')])
+8.4596 	EXP 	text: autoDraw = False
+8.4596 	EXP 	text: autoDraw = False
+8.4596 	EXP 	interStimInt: autoDraw = True
+8.4937 	EXP 	interStimInt: autoDraw = False
+8.4937 	EXP 	interStimInt: autoDraw = False
+8.4937 	EXP 	text: text = u'Y'
+8.4937 	EXP 	text: autoDraw = True
+8.5275 	EXP 	New trial (rep=0, index=26): OrderedDict([(u'stimulus', u'D'), (u'category', u'letter')])
+8.5437 	EXP 	text: autoDraw = False
+8.5437 	EXP 	text: autoDraw = False
+8.5437 	EXP 	interStimInt: autoDraw = True
+8.5789 	EXP 	interStimInt: autoDraw = False
+8.5789 	EXP 	interStimInt: autoDraw = False
+8.5789 	EXP 	text: text = u'D'
+8.5789 	EXP 	text: autoDraw = True
+8.6109 	EXP 	New trial (rep=0, index=27): OrderedDict([(u'stimulus', u'O'), (u'category', u'letter')])
+8.6271 	EXP 	text: autoDraw = False
+8.6271 	EXP 	text: autoDraw = False
+8.6271 	EXP 	interStimInt: autoDraw = True
+8.6604 	EXP 	interStimInt: autoDraw = False
+8.6604 	EXP 	interStimInt: autoDraw = False
+8.6604 	EXP 	text: text = u'O'
+8.6604 	EXP 	text: autoDraw = True
+8.6943 	EXP 	New trial (rep=0, index=28): OrderedDict([(u'stimulus', u'C'), (u'category', u'letter')])
+8.7096 	EXP 	text: autoDraw = False
+8.7096 	EXP 	text: autoDraw = False
+8.7096 	EXP 	interStimInt: autoDraw = True
+8.7432 	EXP 	interStimInt: autoDraw = False
+8.7432 	EXP 	interStimInt: autoDraw = False
+8.7432 	EXP 	text: text = u'C'
+8.7432 	EXP 	text: autoDraw = True
+8.7794 	EXP 	New trial (rep=0, index=29): OrderedDict([(u'stimulus', u'I'), (u'category', u'letter')])
+8.7937 	EXP 	text: autoDraw = False
+8.7937 	EXP 	text: autoDraw = False
+8.7937 	EXP 	interStimInt: autoDraw = True
+8.8264 	EXP 	interStimInt: autoDraw = False
+8.8264 	EXP 	interStimInt: autoDraw = False
+8.8264 	EXP 	text: text = u'I'
+8.8264 	EXP 	text: autoDraw = True
+8.8610 	EXP 	New trial (rep=0, index=30): OrderedDict([(u'stimulus', u'K'), (u'category', u'letter')])
+8.8786 	EXP 	text: autoDraw = False
+8.8786 	EXP 	text: autoDraw = False
+8.8786 	EXP 	interStimInt: autoDraw = True
+8.9097 	EXP 	interStimInt: autoDraw = False
+8.9097 	EXP 	interStimInt: autoDraw = False
+8.9097 	EXP 	text: text = u'K'
+8.9097 	EXP 	text: autoDraw = True
+8.9443 	EXP 	New trial (rep=0, index=31): OrderedDict([(u'stimulus', u'A'), (u'category', u'letter')])
+8.9604 	EXP 	text: autoDraw = False
+8.9604 	EXP 	text: autoDraw = False
+8.9604 	EXP 	interStimInt: autoDraw = True
+8.9938 	EXP 	interStimInt: autoDraw = False
+8.9938 	EXP 	interStimInt: autoDraw = False
+8.9938 	EXP 	text: text = u'A'
+8.9938 	EXP 	text: autoDraw = True
+9.0280 	EXP 	New trial (rep=0, index=32): OrderedDict([(u'stimulus', u'V'), (u'category', u'letter')])
+9.0438 	EXP 	text: autoDraw = False
+9.0438 	EXP 	text: autoDraw = False
+9.0438 	EXP 	interStimInt: autoDraw = True
+9.0790 	EXP 	interStimInt: autoDraw = False
+9.0790 	EXP 	interStimInt: autoDraw = False
+9.0790 	EXP 	text: text = u'V'
+9.0790 	EXP 	text: autoDraw = True
+9.1100 	EXP 	New trial (rep=0, index=33): OrderedDict([(u'stimulus', u'probe'), (u'category', u'probe')])
+9.1271 	EXP 	text: autoDraw = False
+9.1271 	EXP 	text: autoDraw = False
+9.1271 	EXP 	interStimInt: autoDraw = True
+9.1605 	EXP 	interStimInt: autoDraw = False
+9.1605 	EXP 	interStimInt: autoDraw = False
+9.1605 	EXP 	text: text = u'probe'
+9.1605 	EXP 	text: autoDraw = True
+9.1943 	EXP 	New trial (rep=0, index=34): OrderedDict([(u'stimulus', u'X'), (u'category', u'letter')])
+9.2104 	EXP 	text: autoDraw = False
+9.2104 	EXP 	text: autoDraw = False
+9.2104 	EXP 	interStimInt: autoDraw = True
+9.2438 	EXP 	interStimInt: autoDraw = False
+9.2438 	EXP 	interStimInt: autoDraw = False
+9.2438 	EXP 	text: text = u'X'
+9.2438 	EXP 	text: autoDraw = True
+9.2797 	EXP 	New trial (rep=0, index=35): OrderedDict([(u'stimulus', None), (u'category', u'blank')])
+9.2938 	EXP 	text: autoDraw = False
+9.2938 	EXP 	text: autoDraw = False
+9.2938 	EXP 	interStimInt: autoDraw = True
+9.3272 	EXP 	interStimInt: autoDraw = False
+9.3272 	EXP 	interStimInt: autoDraw = False
+9.3272 	EXP 	text: text = 'X'
+9.3272 	EXP 	text: autoDraw = True
+9.3610 	EXP 	New trial (rep=0, index=36): OrderedDict([(u'stimulus', 6), (u'category', u'number')])
+9.3791 	EXP 	text: autoDraw = False
+9.3791 	EXP 	text: autoDraw = False
+9.3791 	EXP 	interStimInt: autoDraw = True
+9.4104 	EXP 	interStimInt: autoDraw = False
+9.4104 	EXP 	interStimInt: autoDraw = False
+9.4104 	EXP 	text: text = 6
+9.4104 	EXP 	text: autoDraw = True
+9.5002 	EXP 	window1: mouseVisible = True

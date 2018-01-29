@@ -1,0 +1,1446 @@
+23.3071 	WARNING 	Trying to use a framebuffer object but GL_ARB_texture_float is not supported. Disabling
+27.1419 	DATA 	Keypress: return
+27.7289 	DATA 	Keypress: space
+29.5350 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+29.5371 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f52aaf61510>, multiSample=False, name='window1', numSamples=2, pos=[0, 0], screen=0, size=array([1920, 1080]), stereo=False, units=u'norm', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+29.5372 	EXP 	window1: recordFrameIntervals = False
+29.8974 	EXP 	window1: recordFrameIntervals = True
+29.9711 	WARNING 	t of last frame was 21.85ms (=1/45)
+30.0446 	WARNING 	t of last frame was 62.73ms (=1/15)
+30.0655 	WARNING 	t of last frame was 20.91ms (=1/47)
+30.0884 	WARNING 	t of last frame was 22.97ms (=1/43)
+30.1620 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+33.3793 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+34.3437 	EXP 	Created intrText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='intrText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+34.3817 	EXP 	Created stimuli = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='stimuli', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+34.3827 	DATA 	Keypress: space
+34.3839 	EXP 	window1: blendMode = 'avg'
+34.4290 	EXP 	intrText: autoDraw = True
+34.4296 	EXP 	window1: blendMode = 'avg'
+34.4985 	EXP 	window1: blendMode = 'avg'
+34.5506 	EXP 	window1: blendMode = 'avg'
+34.5819 	EXP 	window1: blendMode = 'avg'
+34.6022 	EXP 	window1: blendMode = 'avg'
+34.6289 	EXP 	window1: blendMode = 'avg'
+34.6540 	EXP 	window1: blendMode = 'avg'
+34.7034 	EXP 	window1: blendMode = 'avg'
+34.7303 	EXP 	window1: blendMode = 'avg'
+34.7792 	EXP 	window1: blendMode = 'avg'
+34.8117 	EXP 	window1: blendMode = 'avg'
+34.8273 	EXP 	window1: blendMode = 'avg'
+34.9006 	EXP 	window1: blendMode = 'avg'
+34.9308 	EXP 	window1: blendMode = 'avg'
+34.9455 	EXP 	window1: blendMode = 'avg'
+35.0222 	EXP 	window1: blendMode = 'avg'
+35.0627 	EXP 	window1: blendMode = 'avg'
+35.0985 	EXP 	window1: blendMode = 'avg'
+35.1381 	EXP 	window1: blendMode = 'avg'
+35.1489 	EXP 	window1: blendMode = 'avg'
+35.2107 	EXP 	window1: blendMode = 'avg'
+35.2499 	EXP 	window1: blendMode = 'avg'
+35.2957 	EXP 	window1: blendMode = 'avg'
+35.3317 	EXP 	window1: blendMode = 'avg'
+35.3443 	EXP 	window1: blendMode = 'avg'
+35.4100 	EXP 	window1: blendMode = 'avg'
+35.4548 	EXP 	window1: blendMode = 'avg'
+35.4650 	EXP 	window1: blendMode = 'avg'
+35.5337 	EXP 	window1: blendMode = 'avg'
+35.5530 	EXP 	window1: blendMode = 'avg'
+35.6200 	EXP 	window1: blendMode = 'avg'
+35.6302 	EXP 	window1: blendMode = 'avg'
+35.6988 	DATA 	Keypress: space
+35.6990 	EXP 	window1: recordFrameIntervals = False
+35.7327 	EXP 	intrText: autoDraw = False
+35.7329 	EXP 	window1: recordFrameIntervals = False
+37.7386 	EXP 	Imported stimuli.xlsx as conditions, 37 conditions, 2 params
+37.7440 	EXP 	Created sequence: random, trialTypes=37, nReps=15, seed=None
+37.7448 	EXP 	New trial (rep=0, index=0): {'stimulus': u'C', 'category': u'letter'}
+37.7512 	EXP 	New trial (rep=0, index=1): {'stimulus': u'P', 'category': u'letter'}
+37.7582 	EXP 	window1: blendMode = 'avg'
+37.7795 	EXP 	stimuli: text = u'C'
+37.7795 	EXP 	stimuli: autoDraw = False
+37.7795 	EXP 	stimuli: text = u'P'
+37.7795 	EXP 	stimuli: autoDraw = True
+37.7801 	EXP 	window1: blendMode = 'avg'
+37.8020 	EXP 	New trial (rep=0, index=2): {'stimulus': u'F', 'category': u'letter'}
+37.8265 	EXP 	window1: blendMode = 'avg'
+37.8635 	EXP 	stimuli: autoDraw = False
+37.8635 	EXP 	stimuli: text = u'F'
+37.8635 	EXP 	stimuli: autoDraw = True
+37.8642 	EXP 	New trial (rep=0, index=3): {'stimulus': u'W', 'category': u'letter'}
+37.8716 	EXP 	window1: blendMode = 'avg'
+37.9031 	EXP 	stimuli: autoDraw = False
+37.9031 	EXP 	stimuli: text = u'W'
+37.9031 	EXP 	stimuli: autoDraw = True
+37.9039 	EXP 	New trial (rep=0, index=4): {'stimulus': u'S', 'category': u'letter'}
+37.9256 	EXP 	window1: blendMode = 'avg'
+37.9714 	EXP 	stimuli: autoDraw = False
+37.9714 	EXP 	stimuli: text = u'S'
+37.9714 	EXP 	stimuli: autoDraw = True
+37.9721 	EXP 	New trial (rep=0, index=5): {'stimulus': u'G', 'category': u'letter'}
+37.9821 	EXP 	window1: blendMode = 'avg'
+38.0089 	EXP 	stimuli: autoDraw = False
+38.0089 	EXP 	stimuli: text = u'G'
+38.0089 	EXP 	stimuli: autoDraw = True
+38.0108 	EXP 	New trial (rep=0, index=6): {'stimulus': u'U', 'category': u'letter'}
+38.0192 	EXP 	window1: blendMode = 'avg'
+38.0289 	EXP 	stimuli: autoDraw = False
+38.0289 	EXP 	stimuli: text = u'U'
+38.0289 	EXP 	stimuli: autoDraw = True
+38.0294 	EXP 	window1: blendMode = 'avg'
+38.0966 	EXP 	New trial (rep=0, index=7): {'stimulus': u'V', 'category': u'letter'}
+38.1037 	EXP 	New trial (rep=0, index=8): {'stimulus': u'X', 'category': u'letter'}
+38.1348 	EXP 	window1: blendMode = 'avg'
+38.1445 	EXP 	stimuli: autoDraw = False
+38.1445 	EXP 	stimuli: text = u'V'
+38.1445 	EXP 	stimuli: autoDraw = False
+38.1445 	EXP 	stimuli: text = u'X'
+38.1445 	EXP 	stimuli: autoDraw = True
+38.1450 	EXP 	window1: blendMode = 'avg'
+38.2174 	EXP 	New trial (rep=0, index=9): {'stimulus': u'probe', 'category': u'probe'}
+38.2282 	EXP 	New trial (rep=0, index=10): {'stimulus': 4, 'category': u'number'}
+38.2358 	EXP 	window1: blendMode = 'avg'
+38.2592 	EXP 	stimuli: autoDraw = False
+38.2592 	EXP 	stimuli: text = u'probe'
+38.2592 	EXP 	stimuli: autoDraw = False
+38.2592 	EXP 	stimuli: text = 4
+38.2592 	EXP 	stimuli: autoDraw = True
+38.2620 	EXP 	New trial (rep=0, index=11): {'stimulus': u'A', 'category': u'letter'}
+38.2700 	EXP 	window1: blendMode = 'avg'
+38.2830 	EXP 	stimuli: autoDraw = False
+38.2830 	EXP 	stimuli: text = u'A'
+38.2830 	EXP 	stimuli: autoDraw = True
+38.2835 	EXP 	window1: blendMode = 'avg'
+38.3279 	EXP 	New trial (rep=0, index=12): {'stimulus': 8, 'category': u'number'}
+38.3364 	EXP 	window1: blendMode = 'avg'
+38.3531 	EXP 	stimuli: autoDraw = False
+38.3531 	EXP 	stimuli: text = 8
+38.3531 	EXP 	stimuli: autoDraw = True
+38.3540 	EXP 	New trial (rep=0, index=13): {'stimulus': 3, 'category': u'number'}
+38.3838 	EXP 	window1: blendMode = 'avg'
+38.4216 	EXP 	stimuli: autoDraw = False
+38.4216 	EXP 	stimuli: text = 3
+38.4216 	EXP 	stimuli: autoDraw = True
+38.4227 	EXP 	New trial (rep=0, index=14): {'stimulus': u'O', 'category': u'letter'}
+38.4544 	EXP 	New trial (rep=0, index=15): {'stimulus': 7, 'category': u'number'}
+38.4641 	EXP 	window1: blendMode = 'avg'
+38.4941 	EXP 	stimuli: autoDraw = False
+38.4941 	EXP 	stimuli: text = u'O'
+38.4941 	EXP 	stimuli: autoDraw = False
+38.4941 	EXP 	stimuli: text = 7
+38.4941 	EXP 	stimuli: autoDraw = True
+38.4952 	EXP 	window1: blendMode = 'avg'
+38.5305 	EXP 	New trial (rep=0, index=16): {'stimulus': u'Y', 'category': u'letter'}
+38.5372 	EXP 	window1: blendMode = 'avg'
+38.5805 	EXP 	stimuli: autoDraw = False
+38.5805 	EXP 	stimuli: text = u'Y'
+38.5805 	EXP 	stimuli: autoDraw = True
+38.5821 	EXP 	New trial (rep=0, index=17): {'stimulus': u'N', 'category': u'letter'}
+38.5934 	EXP 	window1: blendMode = 'avg'
+38.6135 	EXP 	stimuli: autoDraw = False
+38.6135 	EXP 	stimuli: text = u'N'
+38.6135 	EXP 	stimuli: autoDraw = True
+38.6144 	EXP 	New trial (rep=0, index=18): {'stimulus': u'I', 'category': u'letter'}
+38.6209 	EXP 	window1: blendMode = 'avg'
+38.6301 	EXP 	stimuli: autoDraw = False
+38.6301 	EXP 	stimuli: text = u'I'
+38.6301 	EXP 	stimuli: autoDraw = True
+38.6306 	EXP 	window1: blendMode = 'avg'
+38.6987 	EXP 	New trial (rep=0, index=19): {'stimulus': u'E', 'category': u'letter'}
+38.7049 	EXP 	New trial (rep=0, index=20): {'stimulus': u'J', 'category': u'letter'}
+38.7332 	EXP 	window1: blendMode = 'avg'
+38.7427 	EXP 	stimuli: autoDraw = False
+38.7427 	EXP 	stimuli: text = u'E'
+38.7427 	EXP 	stimuli: autoDraw = False
+38.7427 	EXP 	stimuli: text = u'J'
+38.7427 	EXP 	stimuli: autoDraw = True
+38.7432 	EXP 	window1: blendMode = 'avg'
+38.8139 	EXP 	New trial (rep=0, index=21): {'stimulus': 9, 'category': u'number'}
+38.8227 	EXP 	New trial (rep=0, index=22): {'stimulus': u'Z', 'category': u'letter'}
+38.8305 	EXP 	window1: blendMode = 'avg'
+38.8582 	EXP 	stimuli: autoDraw = False
+38.8582 	EXP 	stimuli: text = 9
+38.8582 	EXP 	stimuli: autoDraw = False
+38.8582 	EXP 	stimuli: text = u'Z'
+38.8582 	EXP 	stimuli: autoDraw = True
+38.8645 	EXP 	New trial (rep=0, index=23): {'stimulus': 5, 'category': u'number'}
+38.8724 	EXP 	window1: blendMode = 'avg'
+38.9216 	EXP 	stimuli: autoDraw = False
+38.9216 	EXP 	stimuli: text = 5
+38.9216 	EXP 	stimuli: autoDraw = True
+38.9223 	EXP 	New trial (rep=0, index=24): {'stimulus': 6, 'category': u'number'}
+38.9313 	EXP 	window1: blendMode = 'avg'
+38.9414 	EXP 	stimuli: autoDraw = False
+38.9414 	EXP 	stimuli: text = 6
+38.9414 	EXP 	stimuli: autoDraw = True
+38.9420 	EXP 	window1: blendMode = 'avg'
+39.0254 	EXP 	New trial (rep=0, index=25): {'stimulus': u'D', 'category': u'letter'}
+39.0323 	EXP 	New trial (rep=0, index=26): {'stimulus': u'T', 'category': u'letter'}
+39.0378 	EXP 	window1: blendMode = 'avg'
+39.0584 	EXP 	stimuli: autoDraw = False
+39.0584 	EXP 	stimuli: text = u'D'
+39.0584 	EXP 	stimuli: autoDraw = False
+39.0584 	EXP 	stimuli: text = u'T'
+39.0584 	EXP 	stimuli: autoDraw = True
+39.0620 	EXP 	New trial (rep=0, index=27): {'stimulus': u'M', 'category': u'letter'}
+39.0694 	EXP 	window1: blendMode = 'avg'
+39.0790 	EXP 	stimuli: autoDraw = False
+39.0790 	EXP 	stimuli: text = u'M'
+39.0790 	EXP 	stimuli: autoDraw = True
+39.0881 	EXP 	window1: blendMode = 'avg'
+39.1358 	EXP 	New trial (rep=0, index=28): {'stimulus': u'B', 'category': u'letter'}
+39.1445 	EXP 	window1: blendMode = 'avg'
+39.1747 	EXP 	stimuli: autoDraw = False
+39.1747 	EXP 	stimuli: text = u'B'
+39.1747 	EXP 	stimuli: autoDraw = True
+39.1799 	EXP 	New trial (rep=0, index=29): {'stimulus': u'H', 'category': u'letter'}
+39.1860 	EXP 	window1: blendMode = 'avg'
+39.2081 	EXP 	stimuli: autoDraw = False
+39.2081 	EXP 	stimuli: text = u'H'
+39.2081 	EXP 	stimuli: autoDraw = True
+39.2092 	EXP 	New trial (rep=0, index=30): {'stimulus': u'Q', 'category': u'letter'}
+39.2207 	EXP 	window1: blendMode = 'avg'
+39.2298 	EXP 	stimuli: autoDraw = False
+39.2298 	EXP 	stimuli: text = u'Q'
+39.2298 	EXP 	stimuli: autoDraw = True
+39.2301 	EXP 	window1: blendMode = 'avg'
+39.2955 	EXP 	New trial (rep=0, index=31): {'stimulus': u'R', 'category': u'letter'}
+39.3022 	EXP 	New trial (rep=0, index=32): {'stimulus': u'L', 'category': u'letter'}
+39.3092 	EXP 	window1: blendMode = 'avg'
+39.3451 	EXP 	stimuli: autoDraw = False
+39.3451 	EXP 	stimuli: text = u'R'
+39.3451 	EXP 	stimuli: autoDraw = False
+39.3451 	EXP 	stimuli: text = u'L'
+39.3451 	EXP 	stimuli: autoDraw = True
+39.3457 	EXP 	window1: blendMode = 'avg'
+39.3883 	EXP 	New trial (rep=0, index=33): {'stimulus': u'K', 'category': u'letter'}
+39.4043 	EXP 	New trial (rep=0, index=34): {'stimulus': 1, 'category': u'number'}
+39.4172 	EXP 	window1: blendMode = 'avg'
+39.4266 	EXP 	stimuli: autoDraw = False
+39.4266 	EXP 	stimuli: text = u'K'
+39.4266 	EXP 	stimuli: autoDraw = False
+39.4266 	EXP 	stimuli: text = 1
+39.4266 	EXP 	stimuli: autoDraw = True
+39.4274 	EXP 	window1: blendMode = 'avg'
+39.5013 	EXP 	New trial (rep=0, index=35): {'stimulus': None, 'category': u'blank'}
+39.5082 	EXP 	New trial (rep=0, index=36): {'stimulus': 2, 'category': u'number'}
+39.5303 	EXP 	window1: blendMode = 'avg'
+39.5795 	EXP 	stimuli: autoDraw = False
+39.5795 	EXP 	stimuli: text = u'1'
+39.5795 	EXP 	stimuli: autoDraw = False
+39.5795 	EXP 	stimuli: text = 2
+39.5795 	EXP 	stimuli: autoDraw = True
+39.5804 	EXP 	New trial (rep=1, index=0): {'stimulus': u'T', 'category': u'letter'}
+39.5981 	EXP 	window1: blendMode = 'avg'
+39.6107 	EXP 	stimuli: autoDraw = False
+39.6107 	EXP 	stimuli: text = u'T'
+39.6107 	EXP 	stimuli: autoDraw = True
+39.6123 	EXP 	New trial (rep=1, index=1): {'stimulus': 7, 'category': u'number'}
+39.6185 	EXP 	window1: blendMode = 'avg'
+39.6618 	EXP 	stimuli: autoDraw = False
+39.6618 	EXP 	stimuli: text = 7
+39.6618 	EXP 	stimuli: autoDraw = True
+39.6625 	EXP 	New trial (rep=1, index=2): {'stimulus': u'M', 'category': u'letter'}
+39.6679 	EXP 	window1: blendMode = 'avg'
+39.6848 	EXP 	stimuli: autoDraw = False
+39.6848 	EXP 	stimuli: text = u'M'
+39.6848 	EXP 	stimuli: autoDraw = True
+39.6853 	EXP 	window1: blendMode = 'avg'
+39.7157 	EXP 	New trial (rep=1, index=3): {'stimulus': u'N', 'category': u'letter'}
+39.7340 	EXP 	window1: blendMode = 'avg'
+39.7745 	EXP 	stimuli: autoDraw = False
+39.7745 	EXP 	stimuli: text = u'N'
+39.7745 	EXP 	stimuli: autoDraw = True
+39.7754 	EXP 	New trial (rep=1, index=4): {'stimulus': u'Y', 'category': u'letter'}
+39.7823 	EXP 	window1: blendMode = 'avg'
+39.8083 	EXP 	stimuli: autoDraw = False
+39.8083 	EXP 	stimuli: text = u'Y'
+39.8083 	EXP 	stimuli: autoDraw = True
+39.8143 	EXP 	New trial (rep=1, index=5): {'stimulus': u'probe', 'category': u'probe'}
+39.8330 	EXP 	window1: blendMode = 'avg'
+39.8637 	EXP 	stimuli: autoDraw = False
+39.8637 	EXP 	stimuli: text = u'probe'
+39.8637 	EXP 	stimuli: autoDraw = True
+39.8645 	EXP 	New trial (rep=1, index=6): {'stimulus': 8, 'category': u'number'}
+39.8702 	EXP 	window1: blendMode = 'avg'
+39.8892 	EXP 	stimuli: autoDraw = False
+39.8892 	EXP 	stimuli: text = 8
+39.8892 	EXP 	stimuli: autoDraw = True
+39.8922 	EXP 	window1: blendMode = 'avg'
+39.9123 	EXP 	New trial (rep=1, index=7): {'stimulus': u'Q', 'category': u'letter'}
+39.9279 	EXP 	window1: blendMode = 'avg'
+39.9407 	EXP 	stimuli: autoDraw = False
+39.9407 	EXP 	stimuli: text = u'Q'
+39.9407 	EXP 	stimuli: autoDraw = True
+39.9412 	EXP 	window1: blendMode = 'avg'
+40.0131 	EXP 	New trial (rep=1, index=8): {'stimulus': 2, 'category': u'number'}
+40.0190 	EXP 	New trial (rep=1, index=9): {'stimulus': u'V', 'category': u'letter'}
+40.0258 	EXP 	window1: blendMode = 'avg'
+40.0577 	EXP 	stimuli: autoDraw = False
+40.0577 	EXP 	stimuli: text = 2
+40.0577 	EXP 	stimuli: autoDraw = False
+40.0577 	EXP 	stimuli: text = u'V'
+40.0577 	EXP 	stimuli: autoDraw = True
+40.0587 	EXP 	New trial (rep=1, index=10): {'stimulus': 6, 'category': u'number'}
+40.0650 	EXP 	window1: blendMode = 'avg'
+40.0924 	EXP 	stimuli: autoDraw = False
+40.0924 	EXP 	stimuli: text = 6
+40.0924 	EXP 	stimuli: autoDraw = True
+40.0948 	EXP 	window1: blendMode = 'avg'
+40.1183 	EXP 	New trial (rep=1, index=11): {'stimulus': u'C', 'category': u'letter'}
+40.1274 	EXP 	window1: blendMode = 'avg'
+40.1431 	EXP 	stimuli: autoDraw = False
+40.1431 	EXP 	stimuli: text = u'C'
+40.1431 	EXP 	stimuli: autoDraw = True
+40.1438 	EXP 	window1: blendMode = 'avg'
+40.1683 	EXP 	New trial (rep=1, index=12): {'stimulus': u'L', 'category': u'letter'}
+40.1830 	EXP 	window1: blendMode = 'avg'
+40.2100 	EXP 	stimuli: autoDraw = False
+40.2100 	EXP 	stimuli: text = u'L'
+40.2100 	EXP 	stimuli: autoDraw = True
+40.2153 	EXP 	New trial (rep=1, index=13): {'stimulus': u'U', 'category': u'letter'}
+40.2217 	EXP 	window1: blendMode = 'avg'
+40.2610 	EXP 	stimuli: autoDraw = False
+40.2610 	EXP 	stimuli: text = u'U'
+40.2610 	EXP 	stimuli: autoDraw = True
+40.2619 	EXP 	New trial (rep=1, index=14): {'stimulus': 4, 'category': u'number'}
+40.2672 	EXP 	window1: blendMode = 'avg'
+40.2968 	EXP 	stimuli: autoDraw = False
+40.2968 	EXP 	stimuli: text = 4
+40.2968 	EXP 	stimuli: autoDraw = True
+40.2973 	EXP 	window1: blendMode = 'avg'
+40.3094 	EXP 	New trial (rep=1, index=15): {'stimulus': u'I', 'category': u'letter'}
+40.3159 	EXP 	window1: blendMode = 'avg'
+40.3760 	EXP 	stimuli: autoDraw = False
+40.3760 	EXP 	stimuli: text = u'I'
+40.3760 	EXP 	stimuli: autoDraw = True
+40.3768 	EXP 	New trial (rep=1, index=16): {'stimulus': 1, 'category': u'number'}
+40.3831 	EXP 	window1: blendMode = 'avg'
+40.4077 	EXP 	stimuli: autoDraw = False
+40.4077 	EXP 	stimuli: text = 1
+40.4077 	EXP 	stimuli: autoDraw = True
+40.4086 	EXP 	New trial (rep=1, index=17): {'stimulus': u'D', 'category': u'letter'}
+40.4157 	EXP 	window1: blendMode = 'avg'
+40.4250 	EXP 	stimuli: autoDraw = False
+40.4250 	EXP 	stimuli: text = u'D'
+40.4250 	EXP 	stimuli: autoDraw = True
+40.4256 	EXP 	window1: blendMode = 'avg'
+40.4969 	EXP 	New trial (rep=1, index=18): {'stimulus': u'X', 'category': u'letter'}
+40.5025 	EXP 	New trial (rep=1, index=19): {'stimulus': u'P', 'category': u'letter'}
+40.5104 	EXP 	window1: blendMode = 'avg'
+40.5479 	EXP 	stimuli: autoDraw = False
+40.5479 	EXP 	stimuli: text = u'X'
+40.5479 	EXP 	stimuli: autoDraw = False
+40.5479 	EXP 	stimuli: text = u'P'
+40.5479 	EXP 	stimuli: autoDraw = True
+40.5486 	EXP 	window1: blendMode = 'avg'
+40.5766 	EXP 	New trial (rep=1, index=20): {'stimulus': 5, 'category': u'number'}
+40.5839 	EXP 	window1: blendMode = 'avg'
+40.5998 	EXP 	stimuli: autoDraw = False
+40.5998 	EXP 	stimuli: text = 5
+40.5998 	EXP 	stimuli: autoDraw = True
+40.6005 	EXP 	New trial (rep=1, index=21): {'stimulus': u'Z', 'category': u'letter'}
+40.6149 	EXP 	window1: blendMode = 'avg'
+40.6249 	EXP 	stimuli: autoDraw = False
+40.6249 	EXP 	stimuli: text = u'Z'
+40.6249 	EXP 	stimuli: autoDraw = True
+40.6255 	EXP 	window1: blendMode = 'avg'
+40.6961 	EXP 	New trial (rep=1, index=22): {'stimulus': u'B', 'category': u'letter'}
+40.7011 	EXP 	New trial (rep=1, index=23): {'stimulus': u'E', 'category': u'letter'}
+40.7079 	EXP 	window1: blendMode = 'avg'
+40.7442 	EXP 	stimuli: autoDraw = False
+40.7442 	EXP 	stimuli: text = u'B'
+40.7442 	EXP 	stimuli: autoDraw = False
+40.7442 	EXP 	stimuli: text = u'E'
+40.7442 	EXP 	stimuli: autoDraw = True
+40.7449 	EXP 	window1: blendMode = 'avg'
+40.7764 	EXP 	New trial (rep=1, index=24): {'stimulus': 3, 'category': u'number'}
+40.7828 	EXP 	window1: blendMode = 'avg'
+40.8159 	EXP 	stimuli: autoDraw = False
+40.8159 	EXP 	stimuli: text = 3
+40.8159 	EXP 	stimuli: autoDraw = True
+40.8252 	EXP 	New trial (rep=1, index=25): {'stimulus': u'O', 'category': u'letter'}
+40.8319 	EXP 	window1: blendMode = 'avg'
+40.8621 	EXP 	stimuli: autoDraw = False
+40.8621 	EXP 	stimuli: text = u'O'
+40.8621 	EXP 	stimuli: autoDraw = True
+40.8632 	EXP 	New trial (rep=1, index=26): {'stimulus': u'S', 'category': u'letter'}
+40.8693 	EXP 	window1: blendMode = 'avg'
+40.8883 	EXP 	stimuli: autoDraw = False
+40.8883 	EXP 	stimuli: text = u'S'
+40.8883 	EXP 	stimuli: autoDraw = True
+40.8952 	EXP 	window1: blendMode = 'avg'
+40.9101 	EXP 	New trial (rep=1, index=27): {'stimulus': u'F', 'category': u'letter'}
+40.9182 	EXP 	window1: blendMode = 'avg'
+40.9373 	EXP 	stimuli: autoDraw = False
+40.9373 	EXP 	stimuli: text = u'F'
+40.9373 	EXP 	stimuli: autoDraw = True
+40.9378 	EXP 	window1: blendMode = 'avg'
+40.9750 	EXP 	New trial (rep=1, index=28): {'stimulus': u'R', 'category': u'letter'}
+40.9818 	EXP 	window1: blendMode = 'avg'
+41.0077 	EXP 	stimuli: autoDraw = False
+41.0077 	EXP 	stimuli: text = u'R'
+41.0077 	EXP 	stimuli: autoDraw = True
+41.0127 	EXP 	New trial (rep=1, index=29): {'stimulus': u'J', 'category': u'letter'}
+41.0186 	EXP 	window1: blendMode = 'avg'
+41.0281 	EXP 	stimuli: autoDraw = False
+41.0281 	EXP 	stimuli: text = u'J'
+41.0281 	EXP 	stimuli: autoDraw = True
+41.0287 	EXP 	window1: blendMode = 'avg'
+41.0963 	EXP 	New trial (rep=1, index=30): {'stimulus': 9, 'category': u'number'}
+41.1018 	EXP 	New trial (rep=1, index=31): {'stimulus': u'A', 'category': u'letter'}
+41.1138 	EXP 	window1: blendMode = 'avg'
+41.1460 	EXP 	stimuli: autoDraw = False
+41.1460 	EXP 	stimuli: text = 9
+41.1460 	EXP 	stimuli: autoDraw = False
+41.1460 	EXP 	stimuli: text = u'A'
+41.1460 	EXP 	stimuli: autoDraw = True
+41.1466 	EXP 	window1: blendMode = 'avg'
+41.1674 	EXP 	New trial (rep=1, index=32): {'stimulus': u'K', 'category': u'letter'}
+41.1817 	EXP 	window1: blendMode = 'avg'
+41.1970 	EXP 	stimuli: autoDraw = False
+41.1970 	EXP 	stimuli: text = u'K'
+41.1970 	EXP 	stimuli: autoDraw = True
+41.2040 	EXP 	New trial (rep=1, index=33): {'stimulus': u'H', 'category': u'letter'}
+41.2120 	EXP 	window1: blendMode = 'avg'
+41.2281 	EXP 	stimuli: autoDraw = False
+41.2281 	EXP 	stimuli: text = u'H'
+41.2281 	EXP 	stimuli: autoDraw = True
+41.2287 	EXP 	window1: blendMode = 'avg'
+41.2523 	EXP 	New trial (rep=1, index=34): {'stimulus': u'G', 'category': u'letter'}
+41.2651 	EXP 	window1: blendMode = 'avg'
+41.2906 	EXP 	stimuli: autoDraw = False
+41.2906 	EXP 	stimuli: text = u'G'
+41.2906 	EXP 	stimuli: autoDraw = True
+41.2923 	EXP 	window1: blendMode = 'avg'
+41.3099 	EXP 	New trial (rep=1, index=35): {'stimulus': u'W', 'category': u'letter'}
+41.3334 	EXP 	window1: blendMode = 'avg'
+41.3434 	EXP 	stimuli: autoDraw = False
+41.3434 	EXP 	stimuli: text = u'W'
+41.3434 	EXP 	stimuli: autoDraw = True
+41.3439 	EXP 	window1: blendMode = 'avg'
+41.4125 	EXP 	New trial (rep=1, index=36): {'stimulus': None, 'category': u'blank'}
+41.4180 	EXP 	New trial (rep=2, index=0): {'stimulus': u'K', 'category': u'letter'}
+41.4320 	EXP 	window1: blendMode = 'avg'
+41.4578 	EXP 	stimuli: autoDraw = False
+41.4578 	EXP 	stimuli: text = u'W'
+41.4578 	EXP 	stimuli: autoDraw = False
+41.4578 	EXP 	stimuli: text = u'K'
+41.4578 	EXP 	stimuli: autoDraw = True
+41.4608 	EXP 	New trial (rep=2, index=1): {'stimulus': u'Z', 'category': u'letter'}
+41.4676 	EXP 	window1: blendMode = 'avg'
+41.4960 	EXP 	stimuli: autoDraw = False
+41.4960 	EXP 	stimuli: text = u'Z'
+41.4960 	EXP 	stimuli: autoDraw = True
+41.4975 	EXP 	window1: blendMode = 'avg'
+41.5153 	EXP 	New trial (rep=2, index=2): {'stimulus': 9, 'category': u'number'}
+41.5215 	EXP 	window1: blendMode = 'avg'
+41.5827 	EXP 	stimuli: autoDraw = False
+41.5827 	EXP 	stimuli: text = 9
+41.5827 	EXP 	stimuli: autoDraw = True
+41.5834 	EXP 	New trial (rep=2, index=3): {'stimulus': u'T', 'category': u'letter'}
+41.5985 	EXP 	window1: blendMode = 'avg'
+41.6134 	EXP 	stimuli: autoDraw = False
+41.6134 	EXP 	stimuli: text = u'T'
+41.6134 	EXP 	stimuli: autoDraw = True
+41.6142 	EXP 	New trial (rep=2, index=4): {'stimulus': u'U', 'category': u'letter'}
+41.6199 	EXP 	window1: blendMode = 'avg'
+41.6606 	EXP 	stimuli: autoDraw = False
+41.6606 	EXP 	stimuli: text = u'U'
+41.6606 	EXP 	stimuli: autoDraw = True
+41.6620 	EXP 	New trial (rep=2, index=5): {'stimulus': u'P', 'category': u'letter'}
+41.6674 	EXP 	window1: blendMode = 'avg'
+41.6779 	EXP 	stimuli: autoDraw = False
+41.6779 	EXP 	stimuli: text = u'P'
+41.6779 	EXP 	stimuli: autoDraw = True
+41.6787 	EXP 	window1: blendMode = 'avg'
+41.7142 	EXP 	New trial (rep=2, index=6): {'stimulus': 1, 'category': u'number'}
+41.7194 	EXP 	window1: blendMode = 'avg'
+41.7378 	EXP 	stimuli: autoDraw = False
+41.7378 	EXP 	stimuli: text = 1
+41.7378 	EXP 	stimuli: autoDraw = True
+41.7383 	EXP 	window1: blendMode = 'avg'
+41.7777 	EXP 	New trial (rep=2, index=7): {'stimulus': u'L', 'category': u'letter'}
+41.7848 	EXP 	window1: blendMode = 'avg'
+41.8137 	EXP 	stimuli: autoDraw = False
+41.8137 	EXP 	stimuli: text = u'L'
+41.8137 	EXP 	stimuli: autoDraw = True
+41.8147 	EXP 	New trial (rep=2, index=8): {'stimulus': u'Y', 'category': u'letter'}
+41.8247 	EXP 	window1: blendMode = 'avg'
+41.8609 	EXP 	stimuli: autoDraw = False
+41.8609 	EXP 	stimuli: text = u'Y'
+41.8609 	EXP 	stimuli: autoDraw = True
+41.8618 	EXP 	New trial (rep=2, index=9): {'stimulus': u'M', 'category': u'letter'}
+41.8683 	EXP 	window1: blendMode = 'avg'
+41.8954 	EXP 	stimuli: autoDraw = False
+41.8954 	EXP 	stimuli: text = u'M'
+41.8954 	EXP 	stimuli: autoDraw = True
+41.8959 	EXP 	window1: blendMode = 'avg'
+41.9073 	EXP 	New trial (rep=2, index=10): {'stimulus': u'W', 'category': u'letter'}
+41.9127 	EXP 	window1: blendMode = 'avg'
+41.9735 	EXP 	stimuli: autoDraw = False
+41.9735 	EXP 	stimuli: text = u'W'
+41.9735 	EXP 	stimuli: autoDraw = True
+41.9751 	EXP 	New trial (rep=2, index=11): {'stimulus': u'C', 'category': u'letter'}
+41.9814 	EXP 	window1: blendMode = 'avg'
+42.0272 	EXP 	stimuli: autoDraw = False
+42.0272 	EXP 	stimuli: text = u'C'
+42.0272 	EXP 	stimuli: autoDraw = True
+42.0280 	EXP 	New trial (rep=2, index=12): {'stimulus': 4, 'category': u'number'}
+42.0346 	EXP 	window1: blendMode = 'avg'
+42.0624 	EXP 	stimuli: autoDraw = False
+42.0624 	EXP 	stimuli: text = 4
+42.0624 	EXP 	stimuli: autoDraw = True
+42.0631 	EXP 	New trial (rep=2, index=13): {'stimulus': 6, 'category': u'number'}
+42.0683 	EXP 	window1: blendMode = 'avg'
+42.0781 	EXP 	stimuli: autoDraw = False
+42.0781 	EXP 	stimuli: text = 6
+42.0781 	EXP 	stimuli: autoDraw = True
+42.0789 	EXP 	window1: blendMode = 'avg'
+42.1181 	EXP 	New trial (rep=2, index=14): {'stimulus': u'H', 'category': u'letter'}
+42.1243 	EXP 	window1: blendMode = 'avg'
+42.1421 	EXP 	stimuli: autoDraw = False
+42.1421 	EXP 	stimuli: text = u'H'
+42.1421 	EXP 	stimuli: autoDraw = True
+42.1430 	EXP 	window1: blendMode = 'avg'
+42.1643 	EXP 	New trial (rep=2, index=15): {'stimulus': u'S', 'category': u'letter'}
+42.1794 	EXP 	window1: blendMode = 'avg'
+42.2079 	EXP 	stimuli: autoDraw = False
+42.2079 	EXP 	stimuli: text = u'S'
+42.2079 	EXP 	stimuli: autoDraw = True
+42.2113 	EXP 	New trial (rep=2, index=16): {'stimulus': u'I', 'category': u'letter'}
+42.2177 	EXP 	window1: blendMode = 'avg'
+42.2270 	EXP 	stimuli: autoDraw = False
+42.2270 	EXP 	stimuli: text = u'I'
+42.2270 	EXP 	stimuli: autoDraw = True
+42.2277 	EXP 	window1: blendMode = 'avg'
+42.2977 	EXP 	New trial (rep=2, index=17): {'stimulus': 8, 'category': u'number'}
+42.3044 	EXP 	New trial (rep=2, index=18): {'stimulus': 2, 'category': u'number'}
+42.3145 	EXP 	window1: blendMode = 'avg'
+42.3477 	EXP 	stimuli: autoDraw = False
+42.3477 	EXP 	stimuli: text = 8
+42.3477 	EXP 	stimuli: autoDraw = False
+42.3477 	EXP 	stimuli: text = 2
+42.3477 	EXP 	stimuli: autoDraw = True
+42.3483 	EXP 	window1: blendMode = 'avg'
+42.3760 	EXP 	New trial (rep=2, index=19): {'stimulus': u'R', 'category': u'letter'}
+42.3810 	EXP 	window1: blendMode = 'avg'
+42.4026 	EXP 	stimuli: autoDraw = False
+42.4026 	EXP 	stimuli: text = u'R'
+42.4026 	EXP 	stimuli: autoDraw = True
+42.4128 	EXP 	New trial (rep=2, index=20): {'stimulus': 7, 'category': u'number'}
+42.4188 	EXP 	window1: blendMode = 'avg'
+42.4290 	EXP 	stimuli: autoDraw = False
+42.4290 	EXP 	stimuli: text = 7
+42.4290 	EXP 	stimuli: autoDraw = True
+42.4300 	EXP 	window1: blendMode = 'avg'
+42.4945 	EXP 	New trial (rep=2, index=21): {'stimulus': u'J', 'category': u'letter'}
+42.4996 	EXP 	New trial (rep=2, index=22): {'stimulus': u'A', 'category': u'letter'}
+42.5044 	EXP 	window1: blendMode = 'avg'
+42.5465 	EXP 	stimuli: autoDraw = False
+42.5465 	EXP 	stimuli: text = u'J'
+42.5465 	EXP 	stimuli: autoDraw = False
+42.5465 	EXP 	stimuli: text = u'A'
+42.5465 	EXP 	stimuli: autoDraw = True
+42.5476 	EXP 	window1: blendMode = 'avg'
+42.5795 	EXP 	New trial (rep=2, index=23): {'stimulus': u'Q', 'category': u'letter'}
+42.5846 	EXP 	window1: blendMode = 'avg'
+42.6122 	EXP 	stimuli: autoDraw = False
+42.6122 	EXP 	stimuli: text = u'Q'
+42.6122 	EXP 	stimuli: autoDraw = True
+42.6131 	EXP 	New trial (rep=2, index=24): {'stimulus': u'X', 'category': u'letter'}
+42.6198 	EXP 	window1: blendMode = 'avg'
+42.6640 	EXP 	stimuli: autoDraw = False
+42.6640 	EXP 	stimuli: text = u'X'
+42.6640 	EXP 	stimuli: autoDraw = True
+42.6649 	EXP 	New trial (rep=2, index=25): {'stimulus': 3, 'category': u'number'}
+42.6708 	EXP 	window1: blendMode = 'avg'
+42.7018 	EXP 	stimuli: autoDraw = False
+42.7018 	EXP 	stimuli: text = 3
+42.7018 	EXP 	stimuli: autoDraw = True
+42.7026 	EXP 	New trial (rep=2, index=26): {'stimulus': None, 'category': u'blank'}
+42.7097 	EXP 	window1: blendMode = 'avg'
+42.7418 	EXP 	stimuli: autoDraw = False
+42.7418 	EXP 	stimuli: text = u'3'
+42.7418 	EXP 	stimuli: autoDraw = True
+42.7433 	EXP 	window1: blendMode = 'avg'
+42.7832 	EXP 	New trial (rep=2, index=27): {'stimulus': u'G', 'category': u'letter'}
+42.7931 	EXP 	window1: blendMode = 'avg'
+42.8120 	EXP 	stimuli: autoDraw = False
+42.8120 	EXP 	stimuli: text = u'G'
+42.8120 	EXP 	stimuli: autoDraw = True
+42.8127 	EXP 	New trial (rep=2, index=28): {'stimulus': u'E', 'category': u'letter'}
+42.8187 	EXP 	window1: blendMode = 'avg'
+42.8598 	EXP 	stimuli: autoDraw = False
+42.8598 	EXP 	stimuli: text = u'E'
+42.8598 	EXP 	stimuli: autoDraw = True
+42.8607 	EXP 	New trial (rep=2, index=29): {'stimulus': u'D', 'category': u'letter'}
+42.8658 	EXP 	window1: blendMode = 'avg'
+42.8787 	EXP 	stimuli: autoDraw = False
+42.8787 	EXP 	stimuli: text = u'D'
+42.8787 	EXP 	stimuli: autoDraw = True
+42.8836 	EXP 	window1: blendMode = 'avg'
+42.9097 	EXP 	New trial (rep=2, index=30): {'stimulus': u'B', 'category': u'letter'}
+42.9171 	EXP 	window1: blendMode = 'avg'
+42.9457 	EXP 	stimuli: autoDraw = False
+42.9457 	EXP 	stimuli: text = u'B'
+42.9457 	EXP 	stimuli: autoDraw = True
+42.9463 	EXP 	window1: blendMode = 'avg'
+42.9653 	EXP 	New trial (rep=2, index=31): {'stimulus': 5, 'category': u'number'}
+42.9707 	EXP 	window1: blendMode = 'avg'
+43.0121 	EXP 	stimuli: autoDraw = False
+43.0121 	EXP 	stimuli: text = 5
+43.0121 	EXP 	stimuli: autoDraw = True
+43.0129 	EXP 	New trial (rep=2, index=32): {'stimulus': u'probe', 'category': u'probe'}
+43.0264 	EXP 	window1: blendMode = 'avg'
+43.0570 	EXP 	stimuli: autoDraw = False
+43.0570 	EXP 	stimuli: text = u'probe'
+43.0570 	EXP 	stimuli: autoDraw = True
+43.0584 	EXP 	New trial (rep=2, index=33): {'stimulus': u'O', 'category': u'letter'}
+43.0635 	EXP 	window1: blendMode = 'avg'
+43.0966 	EXP 	stimuli: autoDraw = False
+43.0966 	EXP 	stimuli: text = u'O'
+43.0966 	EXP 	stimuli: autoDraw = True
+43.0971 	EXP 	window1: blendMode = 'avg'
+43.1084 	EXP 	New trial (rep=2, index=34): {'stimulus': u'N', 'category': u'letter'}
+43.1138 	EXP 	window1: blendMode = 'avg'
+43.1771 	EXP 	stimuli: autoDraw = False
+43.1771 	EXP 	stimuli: text = u'N'
+43.1771 	EXP 	stimuli: autoDraw = True
+43.1778 	EXP 	New trial (rep=2, index=35): {'stimulus': u'F', 'category': u'letter'}
+43.1829 	EXP 	window1: blendMode = 'avg'
+43.2112 	EXP 	stimuli: autoDraw = False
+43.2112 	EXP 	stimuli: text = u'F'
+43.2112 	EXP 	stimuli: autoDraw = True
+43.2119 	EXP 	New trial (rep=2, index=36): {'stimulus': u'V', 'category': u'letter'}
+43.2165 	EXP 	window1: blendMode = 'avg'
+43.2276 	EXP 	stimuli: autoDraw = False
+43.2276 	EXP 	stimuli: text = u'V'
+43.2276 	EXP 	stimuli: autoDraw = True
+43.2281 	EXP 	window1: blendMode = 'avg'
+43.2954 	EXP 	New trial (rep=3, index=0): {'stimulus': u'N', 'category': u'letter'}
+43.3006 	EXP 	New trial (rep=3, index=1): {'stimulus': u'O', 'category': u'letter'}
+43.3076 	EXP 	window1: blendMode = 'avg'
+43.3441 	EXP 	stimuli: autoDraw = False
+43.3441 	EXP 	stimuli: text = u'N'
+43.3441 	EXP 	stimuli: autoDraw = False
+43.3441 	EXP 	stimuli: text = u'O'
+43.3441 	EXP 	stimuli: autoDraw = True
+43.3446 	EXP 	window1: blendMode = 'avg'
+43.3786 	EXP 	New trial (rep=3, index=2): {'stimulus': u'Z', 'category': u'letter'}
+43.3853 	EXP 	window1: blendMode = 'avg'
+43.4068 	EXP 	stimuli: autoDraw = False
+43.4068 	EXP 	stimuli: text = u'Z'
+43.4068 	EXP 	stimuli: autoDraw = True
+43.4100 	EXP 	New trial (rep=3, index=3): {'stimulus': None, 'category': u'blank'}
+43.4156 	EXP 	window1: blendMode = 'avg'
+43.4304 	EXP 	stimuli: autoDraw = False
+43.4304 	EXP 	stimuli: text = u'Z'
+43.4304 	EXP 	stimuli: autoDraw = True
+43.4313 	EXP 	window1: blendMode = 'avg'
+43.4948 	EXP 	New trial (rep=3, index=4): {'stimulus': u'Y', 'category': u'letter'}
+43.5006 	EXP 	New trial (rep=3, index=5): {'stimulus': 7, 'category': u'number'}
+43.5059 	EXP 	window1: blendMode = 'avg'
+43.5456 	EXP 	stimuli: autoDraw = False
+43.5456 	EXP 	stimuli: text = u'Y'
+43.5456 	EXP 	stimuli: autoDraw = False
+43.5456 	EXP 	stimuli: text = 7
+43.5456 	EXP 	stimuli: autoDraw = True
+43.5462 	EXP 	window1: blendMode = 'avg'
+43.5792 	EXP 	New trial (rep=3, index=6): {'stimulus': u'X', 'category': u'letter'}
+43.5848 	EXP 	window1: blendMode = 'avg'
+43.6059 	EXP 	stimuli: autoDraw = False
+43.6059 	EXP 	stimuli: text = u'X'
+43.6059 	EXP 	stimuli: autoDraw = True
+43.6075 	EXP 	New trial (rep=3, index=7): {'stimulus': u'L', 'category': u'letter'}
+43.6135 	EXP 	window1: blendMode = 'avg'
+43.6233 	EXP 	stimuli: autoDraw = False
+43.6233 	EXP 	stimuli: text = u'L'
+43.6233 	EXP 	stimuli: autoDraw = True
+43.6238 	EXP 	window1: blendMode = 'avg'
+43.6974 	EXP 	New trial (rep=3, index=8): {'stimulus': u'B', 'category': u'letter'}
+43.7027 	EXP 	New trial (rep=3, index=9): {'stimulus': u'M', 'category': u'letter'}
+43.7098 	EXP 	window1: blendMode = 'avg'
+43.7397 	EXP 	stimuli: autoDraw = False
+43.7397 	EXP 	stimuli: text = u'B'
+43.7397 	EXP 	stimuli: autoDraw = False
+43.7397 	EXP 	stimuli: text = u'M'
+43.7397 	EXP 	stimuli: autoDraw = True
+43.7404 	EXP 	window1: blendMode = 'avg'
+43.7789 	EXP 	New trial (rep=3, index=10): {'stimulus': 5, 'category': u'number'}
+43.7846 	EXP 	window1: blendMode = 'avg'
+43.8078 	EXP 	stimuli: autoDraw = False
+43.8078 	EXP 	stimuli: text = 5
+43.8078 	EXP 	stimuli: autoDraw = True
+43.8101 	EXP 	New trial (rep=3, index=11): {'stimulus': u'T', 'category': u'letter'}
+43.8164 	EXP 	window1: blendMode = 'avg'
+43.8301 	EXP 	stimuli: autoDraw = False
+43.8301 	EXP 	stimuli: text = u'T'
+43.8301 	EXP 	stimuli: autoDraw = True
+43.8306 	EXP 	window1: blendMode = 'avg'
+43.8945 	EXP 	New trial (rep=3, index=12): {'stimulus': 6, 'category': u'number'}
+43.9003 	EXP 	New trial (rep=3, index=13): {'stimulus': u'E', 'category': u'letter'}
+43.9063 	EXP 	window1: blendMode = 'avg'
+43.9430 	EXP 	stimuli: autoDraw = False
+43.9430 	EXP 	stimuli: text = 6
+43.9430 	EXP 	stimuli: autoDraw = False
+43.9430 	EXP 	stimuli: text = u'E'
+43.9430 	EXP 	stimuli: autoDraw = True
+43.9437 	EXP 	window1: blendMode = 'avg'
+43.9751 	EXP 	New trial (rep=3, index=14): {'stimulus': u'S', 'category': u'letter'}
+43.9806 	EXP 	window1: blendMode = 'avg'
+44.0095 	EXP 	stimuli: autoDraw = False
+44.0095 	EXP 	stimuli: text = u'S'
+44.0095 	EXP 	stimuli: autoDraw = True
+44.0106 	EXP 	New trial (rep=3, index=15): {'stimulus': u'probe', 'category': u'probe'}
+44.0211 	EXP 	window1: blendMode = 'avg'
+44.0615 	EXP 	stimuli: autoDraw = False
+44.0615 	EXP 	stimuli: text = u'probe'
+44.0615 	EXP 	stimuli: autoDraw = True
+44.0624 	EXP 	New trial (rep=3, index=16): {'stimulus': u'G', 'category': u'letter'}
+44.0674 	EXP 	window1: blendMode = 'avg'
+44.0963 	EXP 	stimuli: autoDraw = False
+44.0963 	EXP 	stimuli: text = u'G'
+44.0963 	EXP 	stimuli: autoDraw = True
+44.0969 	EXP 	window1: blendMode = 'avg'
+44.1133 	EXP 	New trial (rep=3, index=17): {'stimulus': u'I', 'category': u'letter'}
+44.1230 	EXP 	window1: blendMode = 'avg'
+44.1748 	EXP 	stimuli: autoDraw = False
+44.1748 	EXP 	stimuli: text = u'I'
+44.1748 	EXP 	stimuli: autoDraw = True
+44.1757 	EXP 	New trial (rep=3, index=18): {'stimulus': u'C', 'category': u'letter'}
+44.1826 	EXP 	window1: blendMode = 'avg'
+44.2062 	EXP 	stimuli: autoDraw = False
+44.2062 	EXP 	stimuli: text = u'C'
+44.2062 	EXP 	stimuli: autoDraw = True
+44.2095 	EXP 	New trial (rep=3, index=19): {'stimulus': u'U', 'category': u'letter'}
+44.2223 	EXP 	window1: blendMode = 'avg'
+44.2562 	EXP 	stimuli: autoDraw = False
+44.2562 	EXP 	stimuli: text = u'U'
+44.2562 	EXP 	stimuli: autoDraw = True
+44.2602 	EXP 	New trial (rep=3, index=20): {'stimulus': 9, 'category': u'number'}
+44.2657 	EXP 	window1: blendMode = 'avg'
+44.2964 	EXP 	stimuli: autoDraw = False
+44.2964 	EXP 	stimuli: text = 9
+44.2964 	EXP 	stimuli: autoDraw = True
+44.2971 	EXP 	window1: blendMode = 'avg'
+44.3068 	EXP 	New trial (rep=3, index=21): {'stimulus': u'H', 'category': u'letter'}
+44.3115 	EXP 	window1: blendMode = 'avg'
+44.3737 	EXP 	stimuli: autoDraw = False
+44.3737 	EXP 	stimuli: text = u'H'
+44.3737 	EXP 	stimuli: autoDraw = True
+44.3748 	EXP 	New trial (rep=3, index=22): {'stimulus': 2, 'category': u'number'}
+44.3803 	EXP 	window1: blendMode = 'avg'
+44.4082 	EXP 	stimuli: autoDraw = False
+44.4082 	EXP 	stimuli: text = 2
+44.4082 	EXP 	stimuli: autoDraw = True
+44.4097 	EXP 	New trial (rep=3, index=23): {'stimulus': 8, 'category': u'number'}
+44.4161 	EXP 	window1: blendMode = 'avg'
+44.4252 	EXP 	stimuli: autoDraw = False
+44.4252 	EXP 	stimuli: text = 8
+44.4252 	EXP 	stimuli: autoDraw = True
+44.4256 	EXP 	window1: blendMode = 'avg'
+44.4958 	EXP 	New trial (rep=3, index=24): {'stimulus': u'Q', 'category': u'letter'}
+44.5017 	EXP 	New trial (rep=3, index=25): {'stimulus': 4, 'category': u'number'}
+44.5155 	EXP 	window1: blendMode = 'avg'
+44.5475 	EXP 	stimuli: autoDraw = False
+44.5475 	EXP 	stimuli: text = u'Q'
+44.5475 	EXP 	stimuli: autoDraw = False
+44.5475 	EXP 	stimuli: text = 4
+44.5475 	EXP 	stimuli: autoDraw = True
+44.5481 	EXP 	window1: blendMode = 'avg'
+44.5664 	EXP 	New trial (rep=3, index=26): {'stimulus': u'W', 'category': u'letter'}
+44.5825 	EXP 	window1: blendMode = 'avg'
+44.5934 	EXP 	stimuli: autoDraw = False
+44.5934 	EXP 	stimuli: text = u'W'
+44.5934 	EXP 	stimuli: autoDraw = True
+44.5953 	EXP 	window1: blendMode = 'avg'
+44.6256 	EXP 	New trial (rep=3, index=27): {'stimulus': u'V', 'category': u'letter'}
+44.6347 	EXP 	window1: blendMode = 'avg'
+44.6527 	EXP 	stimuli: autoDraw = False
+44.6527 	EXP 	stimuli: text = u'V'
+44.6527 	EXP 	stimuli: autoDraw = True
+44.6535 	EXP 	New trial (rep=3, index=28): {'stimulus': u'D', 'category': u'letter'}
+44.6617 	EXP 	window1: blendMode = 'avg'
+44.6890 	EXP 	stimuli: autoDraw = False
+44.6890 	EXP 	stimuli: text = u'D'
+44.6890 	EXP 	stimuli: autoDraw = True
+44.6902 	EXP 	window1: blendMode = 'avg'
+44.7080 	EXP 	New trial (rep=3, index=29): {'stimulus': u'R', 'category': u'letter'}
+44.7139 	EXP 	window1: blendMode = 'avg'
+44.7764 	EXP 	stimuli: autoDraw = False
+44.7764 	EXP 	stimuli: text = u'R'
+44.7764 	EXP 	stimuli: autoDraw = True
+44.7772 	EXP 	New trial (rep=3, index=30): {'stimulus': u'P', 'category': u'letter'}
+44.7820 	EXP 	window1: blendMode = 'avg'
+44.8090 	EXP 	stimuli: autoDraw = False
+44.8090 	EXP 	stimuli: text = u'P'
+44.8090 	EXP 	stimuli: autoDraw = True
+44.8102 	EXP 	New trial (rep=3, index=31): {'stimulus': u'J', 'category': u'letter'}
+44.8156 	EXP 	window1: blendMode = 'avg'
+44.8261 	EXP 	stimuli: autoDraw = False
+44.8261 	EXP 	stimuli: text = u'J'
+44.8261 	EXP 	stimuli: autoDraw = True
+44.8268 	EXP 	window1: blendMode = 'avg'
+44.8942 	EXP 	New trial (rep=3, index=32): {'stimulus': 1, 'category': u'number'}
+44.8999 	EXP 	New trial (rep=3, index=33): {'stimulus': u'K', 'category': u'letter'}
+44.9077 	EXP 	window1: blendMode = 'avg'
+44.9434 	EXP 	stimuli: autoDraw = False
+44.9434 	EXP 	stimuli: text = 1
+44.9434 	EXP 	stimuli: autoDraw = False
+44.9434 	EXP 	stimuli: text = u'K'
+44.9434 	EXP 	stimuli: autoDraw = True
+44.9440 	EXP 	window1: blendMode = 'avg'
+44.9770 	EXP 	New trial (rep=3, index=34): {'stimulus': 3, 'category': u'number'}
+44.9842 	EXP 	window1: blendMode = 'avg'
+45.0080 	EXP 	stimuli: autoDraw = False
+45.0080 	EXP 	stimuli: text = 3
+45.0080 	EXP 	stimuli: autoDraw = True
+45.0096 	EXP 	New trial (rep=3, index=35): {'stimulus': u'A', 'category': u'letter'}
+45.0155 	EXP 	window1: blendMode = 'avg'
+45.0314 	EXP 	stimuli: autoDraw = False
+45.0314 	EXP 	stimuli: text = u'A'
+45.0314 	EXP 	stimuli: autoDraw = True
+45.0319 	EXP 	window1: blendMode = 'avg'
+45.0943 	EXP 	New trial (rep=3, index=36): {'stimulus': u'F', 'category': u'letter'}
+45.1001 	EXP 	New trial (rep=4, index=0): {'stimulus': u'D', 'category': u'letter'}
+45.1071 	EXP 	window1: blendMode = 'avg'
+45.1419 	EXP 	stimuli: autoDraw = False
+45.1419 	EXP 	stimuli: text = u'F'
+45.1419 	EXP 	stimuli: autoDraw = False
+45.1419 	EXP 	stimuli: text = u'D'
+45.1419 	EXP 	stimuli: autoDraw = True
+45.1425 	EXP 	window1: blendMode = 'avg'
+45.1773 	EXP 	New trial (rep=4, index=1): {'stimulus': u'W', 'category': u'letter'}
+45.1827 	EXP 	window1: blendMode = 'avg'
+45.2082 	EXP 	stimuli: autoDraw = False
+45.2082 	EXP 	stimuli: text = u'W'
+45.2082 	EXP 	stimuli: autoDraw = True
+45.2128 	EXP 	New trial (rep=4, index=2): {'stimulus': u'I', 'category': u'letter'}
+45.2189 	EXP 	window1: blendMode = 'avg'
+45.2555 	EXP 	stimuli: autoDraw = False
+45.2555 	EXP 	stimuli: text = u'I'
+45.2555 	EXP 	stimuli: autoDraw = True
+45.2563 	EXP 	New trial (rep=4, index=3): {'stimulus': u'T', 'category': u'letter'}
+45.2623 	EXP 	window1: blendMode = 'avg'
+45.2954 	EXP 	stimuli: autoDraw = False
+45.2954 	EXP 	stimuli: text = u'T'
+45.2954 	EXP 	stimuli: autoDraw = True
+45.2960 	EXP 	window1: blendMode = 'avg'
+45.3077 	EXP 	New trial (rep=4, index=4): {'stimulus': u'Y', 'category': u'letter'}
+45.3149 	EXP 	window1: blendMode = 'avg'
+45.3768 	EXP 	stimuli: autoDraw = False
+45.3768 	EXP 	stimuli: text = u'Y'
+45.3768 	EXP 	stimuli: autoDraw = True
+45.3775 	EXP 	New trial (rep=4, index=5): {'stimulus': 2, 'category': u'number'}
+45.3841 	EXP 	window1: blendMode = 'avg'
+45.4115 	EXP 	stimuli: autoDraw = False
+45.4115 	EXP 	stimuli: text = 2
+45.4115 	EXP 	stimuli: autoDraw = True
+45.4124 	EXP 	New trial (rep=4, index=6): {'stimulus': u'U', 'category': u'letter'}
+45.4195 	EXP 	window1: blendMode = 'avg'
+45.4560 	EXP 	stimuli: autoDraw = False
+45.4560 	EXP 	stimuli: text = u'U'
+45.4560 	EXP 	stimuli: autoDraw = True
+45.4574 	EXP 	New trial (rep=4, index=7): {'stimulus': 1, 'category': u'number'}
+45.4633 	EXP 	window1: blendMode = 'avg'
+45.4964 	EXP 	stimuli: autoDraw = False
+45.4964 	EXP 	stimuli: text = 1
+45.4964 	EXP 	stimuli: autoDraw = True
+45.4969 	EXP 	window1: blendMode = 'avg'
+45.5135 	EXP 	New trial (rep=4, index=8): {'stimulus': None, 'category': u'blank'}
+45.5189 	EXP 	window1: blendMode = 'avg'
+45.5726 	EXP 	stimuli: autoDraw = False
+45.5726 	EXP 	stimuli: text = u'1'
+45.5726 	EXP 	stimuli: autoDraw = True
+45.5736 	EXP 	New trial (rep=4, index=9): {'stimulus': u'Q', 'category': u'letter'}
+45.5786 	EXP 	window1: blendMode = 'avg'
+45.6221 	EXP 	stimuli: autoDraw = False
+45.6221 	EXP 	stimuli: text = u'Q'
+45.6221 	EXP 	stimuli: autoDraw = True
+45.6228 	EXP 	New trial (rep=4, index=10): {'stimulus': u'P', 'category': u'letter'}
+45.6278 	EXP 	window1: blendMode = 'avg'
+45.6583 	EXP 	stimuli: autoDraw = False
+45.6583 	EXP 	stimuli: text = u'P'
+45.6583 	EXP 	stimuli: autoDraw = True
+45.6591 	EXP 	New trial (rep=4, index=11): {'stimulus': u'K', 'category': u'letter'}
+45.6640 	EXP 	window1: blendMode = 'avg'
+45.6895 	EXP 	stimuli: autoDraw = False
+45.6895 	EXP 	stimuli: text = u'K'
+45.6895 	EXP 	stimuli: autoDraw = True
+45.6902 	EXP 	window1: blendMode = 'avg'
+45.7082 	EXP 	New trial (rep=4, index=12): {'stimulus': u'M', 'category': u'letter'}
+45.7136 	EXP 	window1: blendMode = 'avg'
+45.7390 	EXP 	stimuli: autoDraw = False
+45.7390 	EXP 	stimuli: text = u'M'
+45.7390 	EXP 	stimuli: autoDraw = True
+45.7408 	EXP 	window1: blendMode = 'avg'
+45.7751 	EXP 	New trial (rep=4, index=13): {'stimulus': u'R', 'category': u'letter'}
+45.7805 	EXP 	window1: blendMode = 'avg'
+45.8060 	EXP 	stimuli: autoDraw = False
+45.8060 	EXP 	stimuli: text = u'R'
+45.8060 	EXP 	stimuli: autoDraw = True
+45.8093 	EXP 	New trial (rep=4, index=14): {'stimulus': 4, 'category': u'number'}
+45.8149 	EXP 	window1: blendMode = 'avg'
+45.8296 	EXP 	stimuli: autoDraw = False
+45.8296 	EXP 	stimuli: text = 4
+45.8296 	EXP 	stimuli: autoDraw = True
+45.8302 	EXP 	window1: blendMode = 'avg'
+45.8983 	EXP 	New trial (rep=4, index=15): {'stimulus': 6, 'category': u'number'}
+45.9124 	EXP 	New trial (rep=4, index=16): {'stimulus': u'F', 'category': u'letter'}
+45.9181 	EXP 	window1: blendMode = 'avg'
+45.9442 	EXP 	stimuli: autoDraw = False
+45.9442 	EXP 	stimuli: text = 6
+45.9442 	EXP 	stimuli: autoDraw = False
+45.9442 	EXP 	stimuli: text = u'F'
+45.9442 	EXP 	stimuli: autoDraw = True
+45.9448 	EXP 	window1: blendMode = 'avg'
+45.9785 	EXP 	New trial (rep=4, index=17): {'stimulus': u'O', 'category': u'letter'}
+45.9863 	EXP 	window1: blendMode = 'avg'
+46.0123 	EXP 	stimuli: autoDraw = False
+46.0123 	EXP 	stimuli: text = u'O'
+46.0123 	EXP 	stimuli: autoDraw = True
+46.0131 	EXP 	New trial (rep=4, index=18): {'stimulus': u'Z', 'category': u'letter'}
+46.0188 	EXP 	window1: blendMode = 'avg'
+46.0557 	EXP 	stimuli: autoDraw = False
+46.0557 	EXP 	stimuli: text = u'Z'
+46.0557 	EXP 	stimuli: autoDraw = True
+46.0566 	EXP 	New trial (rep=4, index=19): {'stimulus': 5, 'category': u'number'}
+46.0625 	EXP 	window1: blendMode = 'avg'
+46.0964 	EXP 	stimuli: autoDraw = False
+46.0964 	EXP 	stimuli: text = 5
+46.0964 	EXP 	stimuli: autoDraw = True
+46.0970 	EXP 	window1: blendMode = 'avg'
+46.1119 	EXP 	New trial (rep=4, index=20): {'stimulus': u'E', 'category': u'letter'}
+46.1182 	EXP 	window1: blendMode = 'avg'
+46.1780 	EXP 	stimuli: autoDraw = False
+46.1780 	EXP 	stimuli: text = u'E'
+46.1780 	EXP 	stimuli: autoDraw = True
+46.1787 	EXP 	New trial (rep=4, index=21): {'stimulus': 3, 'category': u'number'}
+46.1934 	EXP 	window1: blendMode = 'avg'
+46.2118 	EXP 	stimuli: autoDraw = False
+46.2118 	EXP 	stimuli: text = 3
+46.2118 	EXP 	stimuli: autoDraw = True
+46.2125 	EXP 	New trial (rep=4, index=22): {'stimulus': u'V', 'category': u'letter'}
+46.2180 	EXP 	window1: blendMode = 'avg'
+46.2272 	EXP 	stimuli: autoDraw = False
+46.2272 	EXP 	stimuli: text = u'V'
+46.2272 	EXP 	stimuli: autoDraw = True
+46.2277 	EXP 	window1: blendMode = 'avg'
+46.2973 	EXP 	New trial (rep=4, index=23): {'stimulus': u'N', 'category': u'letter'}
+46.3024 	EXP 	New trial (rep=4, index=24): {'stimulus': u'H', 'category': u'letter'}
+46.3117 	EXP 	window1: blendMode = 'avg'
+46.3441 	EXP 	stimuli: autoDraw = False
+46.3441 	EXP 	stimuli: text = u'N'
+46.3441 	EXP 	stimuli: autoDraw = False
+46.3441 	EXP 	stimuli: text = u'H'
+46.3441 	EXP 	stimuli: autoDraw = True
+46.3446 	EXP 	window1: blendMode = 'avg'
+46.3775 	EXP 	New trial (rep=4, index=25): {'stimulus': u'S', 'category': u'letter'}
+46.3831 	EXP 	window1: blendMode = 'avg'
+46.4087 	EXP 	stimuli: autoDraw = False
+46.4087 	EXP 	stimuli: text = u'S'
+46.4087 	EXP 	stimuli: autoDraw = True
+46.4096 	EXP 	New trial (rep=4, index=26): {'stimulus': u'C', 'category': u'letter'}
+46.4162 	EXP 	window1: blendMode = 'avg'
+46.4328 	EXP 	stimuli: autoDraw = False
+46.4328 	EXP 	stimuli: text = u'C'
+46.4328 	EXP 	stimuli: autoDraw = True
+46.4336 	EXP 	window1: blendMode = 'avg'
+46.4939 	EXP 	New trial (rep=4, index=27): {'stimulus': u'A', 'category': u'letter'}
+46.5199 	EXP 	New trial (rep=4, index=28): {'stimulus': u'J', 'category': u'letter'}
+46.5456 	EXP 	window1: blendMode = 'avg'
+46.5819 	EXP 	stimuli: autoDraw = False
+46.5819 	EXP 	stimuli: text = u'A'
+46.5819 	EXP 	stimuli: autoDraw = False
+46.5819 	EXP 	stimuli: text = u'J'
+46.5819 	EXP 	stimuli: autoDraw = True
+46.5834 	EXP 	New trial (rep=4, index=29): {'stimulus': u'G', 'category': u'letter'}
+46.5934 	EXP 	window1: blendMode = 'avg'
+46.6303 	EXP 	stimuli: autoDraw = False
+46.6303 	EXP 	stimuli: text = u'G'
+46.6303 	EXP 	stimuli: autoDraw = True
+46.6320 	EXP 	New trial (rep=4, index=30): {'stimulus': u'X', 'category': u'letter'}
+46.6443 	EXP 	window1: blendMode = 'avg'
+46.6652 	EXP 	stimuli: autoDraw = False
+46.6652 	EXP 	stimuli: text = u'X'
+46.6652 	EXP 	stimuli: autoDraw = True
+46.6660 	EXP 	New trial (rep=4, index=31): {'stimulus': 9, 'category': u'number'}
+46.6969 	EXP 	window1: blendMode = 'avg'
+46.7137 	EXP 	stimuli: autoDraw = False
+46.7137 	EXP 	stimuli: text = 9
+46.7137 	EXP 	stimuli: autoDraw = True
+46.7144 	EXP 	New trial (rep=4, index=32): {'stimulus': u'probe', 'category': u'probe'}
+46.7335 	EXP 	window1: blendMode = 'avg'
+46.7775 	EXP 	stimuli: autoDraw = False
+46.7775 	EXP 	stimuli: text = u'probe'
+46.7775 	EXP 	stimuli: autoDraw = True
+46.7783 	EXP 	New trial (rep=4, index=33): {'stimulus': 7, 'category': u'number'}
+46.7832 	EXP 	window1: blendMode = 'avg'
+46.8152 	EXP 	stimuli: autoDraw = False
+46.8152 	EXP 	stimuli: text = 7
+46.8152 	EXP 	stimuli: autoDraw = True
+46.8161 	EXP 	New trial (rep=4, index=34): {'stimulus': u'L', 'category': u'letter'}
+46.8295 	EXP 	window1: blendMode = 'avg'
+46.8606 	EXP 	stimuli: autoDraw = False
+46.8606 	EXP 	stimuli: text = u'L'
+46.8606 	EXP 	stimuli: autoDraw = True
+46.8615 	EXP 	New trial (rep=4, index=35): {'stimulus': u'B', 'category': u'letter'}
+46.8672 	EXP 	window1: blendMode = 'avg'
+46.8916 	EXP 	stimuli: autoDraw = False
+46.8916 	EXP 	stimuli: text = u'B'
+46.8916 	EXP 	stimuli: autoDraw = True
+46.8924 	EXP 	window1: blendMode = 'avg'
+46.9081 	EXP 	New trial (rep=4, index=36): {'stimulus': 8, 'category': u'number'}
+46.9196 	EXP 	window1: blendMode = 'avg'
+46.9428 	EXP 	stimuli: autoDraw = False
+46.9428 	EXP 	stimuli: text = 8
+46.9428 	EXP 	stimuli: autoDraw = True
+46.9433 	EXP 	window1: blendMode = 'avg'
+46.9657 	EXP 	New trial (rep=5, index=0): {'stimulus': 8, 'category': u'number'}
+46.9805 	EXP 	window1: blendMode = 'avg'
+47.0064 	EXP 	stimuli: autoDraw = False
+47.0064 	EXP 	stimuli: text = 8
+47.0064 	EXP 	stimuli: autoDraw = True
+47.0075 	EXP 	New trial (rep=5, index=1): {'stimulus': u'V', 'category': u'letter'}
+47.0163 	EXP 	window1: blendMode = 'avg'
+47.0277 	EXP 	stimuli: autoDraw = False
+47.0277 	EXP 	stimuli: text = u'V'
+47.0277 	EXP 	stimuli: autoDraw = True
+47.0282 	EXP 	window1: blendMode = 'avg'
+47.0972 	EXP 	New trial (rep=5, index=2): {'stimulus': u'A', 'category': u'letter'}
+47.1178 	EXP 	New trial (rep=5, index=3): {'stimulus': 7, 'category': u'number'}
+47.1265 	EXP 	window1: blendMode = 'avg'
+47.1500 	EXP 	stimuli: autoDraw = False
+47.1500 	EXP 	stimuli: text = u'A'
+47.1500 	EXP 	stimuli: autoDraw = False
+47.1500 	EXP 	stimuli: text = 7
+47.1500 	EXP 	stimuli: autoDraw = True
+47.1515 	EXP 	New trial (rep=5, index=4): {'stimulus': u'Z', 'category': u'letter'}
+47.1645 	EXP 	window1: blendMode = 'avg'
+47.1862 	EXP 	stimuli: autoDraw = False
+47.1862 	EXP 	stimuli: text = u'Z'
+47.1862 	EXP 	stimuli: autoDraw = True
+47.1869 	EXP 	window1: blendMode = 'avg'
+47.2657 	EXP 	New trial (rep=5, index=5): {'stimulus': u'D', 'category': u'letter'}
+47.2785 	EXP 	New trial (rep=5, index=6): {'stimulus': 5, 'category': u'number'}
+47.2939 	EXP 	window1: blendMode = 'avg'
+47.3456 	EXP 	stimuli: autoDraw = False
+47.3456 	EXP 	stimuli: text = u'D'
+47.3456 	EXP 	stimuli: autoDraw = False
+47.3456 	EXP 	stimuli: text = 5
+47.3456 	EXP 	stimuli: autoDraw = True
+47.3465 	EXP 	New trial (rep=5, index=7): {'stimulus': u'O', 'category': u'letter'}
+47.3528 	EXP 	New trial (rep=5, index=8): {'stimulus': 9, 'category': u'number'}
+47.3618 	DATA 	Keypress: space
+47.3623 	EXP 	window1: blendMode = 'avg'
+47.3805 	EXP 	stimuli: autoDraw = False
+47.3805 	EXP 	stimuli: text = u'O'
+47.3805 	EXP 	stimuli: autoDraw = False
+47.3805 	EXP 	stimuli: text = 9
+47.3805 	EXP 	stimuli: autoDraw = True
+47.3811 	EXP 	window1: blendMode = 'avg'
+47.4385 	EXP 	New trial (rep=5, index=9): {'stimulus': None, 'category': u'blank'}
+47.4564 	EXP 	New trial (rep=5, index=10): {'stimulus': u'Y', 'category': u'letter'}
+47.4621 	EXP 	window1: blendMode = 'avg'
+47.4895 	EXP 	stimuli: autoDraw = False
+47.4895 	EXP 	stimuli: text = u'9'
+47.4895 	EXP 	stimuli: autoDraw = False
+47.4895 	EXP 	stimuli: text = u'Y'
+47.4895 	EXP 	stimuli: autoDraw = True
+47.4945 	EXP 	window1: blendMode = 'avg'
+47.5064 	EXP 	New trial (rep=5, index=11): {'stimulus': u'W', 'category': u'letter'}
+47.5160 	EXP 	window1: blendMode = 'avg'
+47.5790 	EXP 	stimuli: autoDraw = False
+47.5790 	EXP 	stimuli: text = u'W'
+47.5790 	EXP 	stimuli: autoDraw = True
+47.5800 	EXP 	New trial (rep=5, index=12): {'stimulus': u'N', 'category': u'letter'}
+47.5858 	EXP 	window1: blendMode = 'avg'
+47.6138 	EXP 	stimuli: autoDraw = False
+47.6138 	EXP 	stimuli: text = u'N'
+47.6138 	EXP 	stimuli: autoDraw = True
+47.6146 	EXP 	New trial (rep=5, index=13): {'stimulus': u'F', 'category': u'letter'}
+47.6221 	EXP 	window1: blendMode = 'avg'
+47.6614 	EXP 	stimuli: autoDraw = False
+47.6614 	EXP 	stimuli: text = u'F'
+47.6614 	EXP 	stimuli: autoDraw = True
+47.6625 	EXP 	New trial (rep=5, index=14): {'stimulus': u'G', 'category': u'letter'}
+47.6682 	EXP 	window1: blendMode = 'avg'
+47.6936 	EXP 	stimuli: autoDraw = False
+47.6936 	EXP 	stimuli: text = u'G'
+47.6936 	EXP 	stimuli: autoDraw = True
+47.6942 	EXP 	window1: blendMode = 'avg'
+47.7106 	EXP 	New trial (rep=5, index=15): {'stimulus': u'J', 'category': u'letter'}
+47.7187 	EXP 	window1: blendMode = 'avg'
+47.7416 	EXP 	stimuli: autoDraw = False
+47.7416 	EXP 	stimuli: text = u'J'
+47.7416 	EXP 	stimuli: autoDraw = True
+47.7424 	EXP 	window1: blendMode = 'avg'
+47.7756 	EXP 	New trial (rep=5, index=16): {'stimulus': 3, 'category': u'number'}
+47.7818 	EXP 	window1: blendMode = 'avg'
+47.8106 	EXP 	stimuli: autoDraw = False
+47.8106 	EXP 	stimuli: text = 3
+47.8106 	EXP 	stimuli: autoDraw = True
+47.8121 	EXP 	New trial (rep=5, index=17): {'stimulus': u'Q', 'category': u'letter'}
+47.8187 	EXP 	window1: blendMode = 'avg'
+47.8622 	EXP 	stimuli: autoDraw = False
+47.8622 	EXP 	stimuli: text = u'Q'
+47.8622 	EXP 	stimuli: autoDraw = True
+47.8631 	EXP 	New trial (rep=5, index=18): {'stimulus': u'P', 'category': u'letter'}
+47.8685 	EXP 	window1: blendMode = 'avg'
+47.9002 	EXP 	stimuli: autoDraw = False
+47.9002 	EXP 	stimuli: text = u'P'
+47.9002 	EXP 	stimuli: autoDraw = True
+47.9050 	EXP 	New trial (rep=5, index=19): {'stimulus': u'R', 'category': u'letter'}
+47.9102 	EXP 	window1: blendMode = 'avg'
+47.9384 	EXP 	stimuli: autoDraw = False
+47.9384 	EXP 	stimuli: text = u'R'
+47.9384 	EXP 	stimuli: autoDraw = True
+47.9425 	EXP 	window1: blendMode = 'avg'
+47.9755 	EXP 	New trial (rep=5, index=20): {'stimulus': u'M', 'category': u'letter'}
+47.9820 	EXP 	window1: blendMode = 'avg'
+48.0105 	EXP 	stimuli: autoDraw = False
+48.0105 	EXP 	stimuli: text = u'M'
+48.0105 	EXP 	stimuli: autoDraw = True
+48.0112 	EXP 	New trial (rep=5, index=21): {'stimulus': 4, 'category': u'number'}
+48.0177 	EXP 	window1: blendMode = 'avg'
+48.0272 	EXP 	stimuli: autoDraw = False
+48.0272 	EXP 	stimuli: text = 4
+48.0272 	EXP 	stimuli: autoDraw = True
+48.0278 	EXP 	window1: blendMode = 'avg'
+48.0974 	EXP 	New trial (rep=5, index=22): {'stimulus': u'L', 'category': u'letter'}
+48.1084 	EXP 	New trial (rep=5, index=23): {'stimulus': u'E', 'category': u'letter'}
+48.1135 	EXP 	window1: blendMode = 'avg'
+48.1396 	EXP 	stimuli: autoDraw = False
+48.1396 	EXP 	stimuli: text = u'L'
+48.1396 	EXP 	stimuli: autoDraw = False
+48.1396 	EXP 	stimuli: text = u'E'
+48.1396 	EXP 	stimuli: autoDraw = True
+48.1448 	EXP 	window1: blendMode = 'avg'
+48.1585 	EXP 	New trial (rep=5, index=24): {'stimulus': 2, 'category': u'number'}
+48.1655 	EXP 	window1: blendMode = 'avg'
+48.2067 	EXP 	stimuli: autoDraw = False
+48.2067 	EXP 	stimuli: text = 2
+48.2067 	EXP 	stimuli: autoDraw = True
+48.2080 	EXP 	New trial (rep=5, index=25): {'stimulus': u'probe', 'category': u'probe'}
+48.2184 	EXP 	window1: blendMode = 'avg'
+48.2631 	EXP 	stimuli: autoDraw = False
+48.2631 	EXP 	stimuli: text = u'probe'
+48.2631 	EXP 	stimuli: autoDraw = True
+48.2640 	EXP 	New trial (rep=5, index=26): {'stimulus': u'C', 'category': u'letter'}
+48.2696 	EXP 	window1: blendMode = 'avg'
+48.2956 	EXP 	stimuli: autoDraw = False
+48.2956 	EXP 	stimuli: text = u'C'
+48.2956 	EXP 	stimuli: autoDraw = True
+48.2961 	EXP 	window1: blendMode = 'avg'
+48.3097 	EXP 	New trial (rep=5, index=27): {'stimulus': u'U', 'category': u'letter'}
+48.3166 	DATA 	Keypress: space
+48.3171 	EXP 	window1: blendMode = 'avg'
+48.3730 	EXP 	stimuli: autoDraw = False
+48.3730 	EXP 	stimuli: text = u'U'
+48.3730 	EXP 	stimuli: autoDraw = True
+48.3740 	EXP 	New trial (rep=5, index=28): {'stimulus': u'H', 'category': u'letter'}
+48.3848 	EXP 	window1: blendMode = 'avg'
+48.4076 	EXP 	stimuli: autoDraw = False
+48.4076 	EXP 	stimuli: text = u'H'
+48.4076 	EXP 	stimuli: autoDraw = True
+48.4086 	EXP 	New trial (rep=5, index=29): {'stimulus': u'B', 'category': u'letter'}
+48.4140 	EXP 	window1: blendMode = 'avg'
+48.4235 	EXP 	stimuli: autoDraw = False
+48.4235 	EXP 	stimuli: text = u'B'
+48.4235 	EXP 	stimuli: autoDraw = True
+48.4246 	EXP 	window1: blendMode = 'avg'
+48.4907 	EXP 	New trial (rep=5, index=30): {'stimulus': u'I', 'category': u'letter'}
+48.4986 	EXP 	window1: blendMode = 'avg'
+48.5119 	EXP 	stimuli: autoDraw = False
+48.5119 	EXP 	stimuli: text = u'I'
+48.5119 	EXP 	stimuli: autoDraw = True
+48.5125 	EXP 	New trial (rep=5, index=31): {'stimulus': 1, 'category': u'number'}
+48.5185 	EXP 	window1: blendMode = 'avg'
+48.5762 	EXP 	stimuli: autoDraw = False
+48.5762 	EXP 	stimuli: text = 1
+48.5762 	EXP 	stimuli: autoDraw = True
+48.5771 	EXP 	New trial (rep=5, index=32): {'stimulus': u'X', 'category': u'letter'}
+48.5822 	EXP 	window1: blendMode = 'avg'
+48.6090 	EXP 	stimuli: autoDraw = False
+48.6090 	EXP 	stimuli: text = u'X'
+48.6090 	EXP 	stimuli: autoDraw = True
+48.6098 	EXP 	New trial (rep=5, index=33): {'stimulus': u'T', 'category': u'letter'}
+48.6157 	EXP 	window1: blendMode = 'avg'
+48.6282 	EXP 	stimuli: autoDraw = False
+48.6282 	EXP 	stimuli: text = u'T'
+48.6282 	EXP 	stimuli: autoDraw = True
+48.6287 	EXP 	window1: blendMode = 'avg'
+48.6903 	EXP 	New trial (rep=5, index=34): {'stimulus': 6, 'category': u'number'}
+48.6976 	EXP 	window1: blendMode = 'avg'
+48.7111 	EXP 	stimuli: autoDraw = False
+48.7111 	EXP 	stimuli: text = 6
+48.7111 	EXP 	stimuli: autoDraw = True
+48.7117 	EXP 	New trial (rep=5, index=35): {'stimulus': u'S', 'category': u'letter'}
+48.7166 	EXP 	window1: blendMode = 'avg'
+48.7726 	EXP 	stimuli: autoDraw = False
+48.7726 	EXP 	stimuli: text = u'S'
+48.7726 	EXP 	stimuli: autoDraw = True
+48.7769 	EXP 	New trial (rep=5, index=36): {'stimulus': u'K', 'category': u'letter'}
+48.7825 	EXP 	window1: blendMode = 'avg'
+48.8115 	EXP 	stimuli: autoDraw = False
+48.8115 	EXP 	stimuli: text = u'K'
+48.8115 	EXP 	stimuli: autoDraw = True
+48.8125 	EXP 	New trial (rep=6, index=0): {'stimulus': 2, 'category': u'number'}
+48.8181 	EXP 	window1: blendMode = 'avg'
+48.8275 	EXP 	stimuli: autoDraw = False
+48.8275 	EXP 	stimuli: text = 2
+48.8275 	EXP 	stimuli: autoDraw = True
+48.8280 	EXP 	window1: blendMode = 'avg'
+48.8906 	EXP 	New trial (rep=6, index=1): {'stimulus': u'B', 'category': u'letter'}
+48.8979 	EXP 	window1: blendMode = 'avg'
+48.9084 	EXP 	stimuli: autoDraw = False
+48.9084 	EXP 	stimuli: text = u'B'
+48.9084 	EXP 	stimuli: autoDraw = True
+48.9092 	EXP 	New trial (rep=6, index=2): {'stimulus': u'I', 'category': u'letter'}
+48.9178 	EXP 	window1: blendMode = 'avg'
+48.9754 	EXP 	stimuli: autoDraw = False
+48.9754 	EXP 	stimuli: text = u'I'
+48.9754 	EXP 	stimuli: autoDraw = True
+48.9762 	EXP 	New trial (rep=6, index=3): {'stimulus': u'O', 'category': u'letter'}
+48.9822 	EXP 	window1: blendMode = 'avg'
+48.9959 	EXP 	stimuli: autoDraw = False
+48.9959 	EXP 	stimuli: text = u'O'
+48.9959 	EXP 	stimuli: autoDraw = True
+48.9964 	EXP 	window1: blendMode = 'avg'
+49.0575 	EXP 	New trial (rep=6, index=4): {'stimulus': u'J', 'category': u'letter'}
+49.0626 	EXP 	New trial (rep=6, index=5): {'stimulus': u'X', 'category': u'letter'}
+49.0681 	EXP 	window1: blendMode = 'avg'
+49.0939 	EXP 	stimuli: autoDraw = False
+49.0939 	EXP 	stimuli: text = u'J'
+49.0939 	EXP 	stimuli: autoDraw = False
+49.0939 	EXP 	stimuli: text = u'X'
+49.0939 	EXP 	stimuli: autoDraw = True
+49.0945 	EXP 	window1: blendMode = 'avg'
+49.1070 	EXP 	New trial (rep=6, index=6): {'stimulus': u'U', 'category': u'letter'}
+49.1123 	EXP 	window1: blendMode = 'avg'
+49.1715 	EXP 	stimuli: autoDraw = False
+49.1715 	EXP 	stimuli: text = u'U'
+49.1715 	EXP 	stimuli: autoDraw = True
+49.1723 	EXP 	New trial (rep=6, index=7): {'stimulus': 4, 'category': u'number'}
+49.1779 	EXP 	window1: blendMode = 'avg'
+49.1922 	EXP 	stimuli: autoDraw = False
+49.1922 	EXP 	stimuli: text = 4
+49.1922 	EXP 	stimuli: autoDraw = True
+49.1929 	EXP 	window1: blendMode = 'avg'
+49.2562 	EXP 	New trial (rep=6, index=8): {'stimulus': 5, 'category': u'number'}
+49.2663 	EXP 	New trial (rep=6, index=9): {'stimulus': u'F', 'category': u'letter'}
+49.2760 	EXP 	window1: blendMode = 'avg'
+49.2928 	EXP 	stimuli: autoDraw = False
+49.2928 	EXP 	stimuli: text = 5
+49.2928 	EXP 	stimuli: autoDraw = False
+49.2928 	EXP 	stimuli: text = u'F'
+49.2928 	EXP 	stimuli: autoDraw = True
+49.2935 	EXP 	window1: blendMode = 'avg'
+49.3403 	EXP 	New trial (rep=6, index=10): {'stimulus': u'V', 'category': u'letter'}
+49.3467 	EXP 	window1: blendMode = 'avg'
+49.3589 	EXP 	stimuli: autoDraw = False
+49.3589 	EXP 	stimuli: text = u'V'
+49.3589 	EXP 	stimuli: autoDraw = True
+49.3681 	EXP 	New trial (rep=6, index=11): {'stimulus': None, 'category': u'blank'}
+49.3759 	EXP 	window1: blendMode = 'avg'
+49.3890 	EXP 	stimuli: autoDraw = False
+49.3890 	EXP 	stimuli: text = u'V'
+49.3890 	EXP 	stimuli: autoDraw = True
+49.3901 	EXP 	window1: blendMode = 'avg'
+49.4218 	EXP 	New trial (rep=6, index=12): {'stimulus': u'probe', 'category': u'probe'}
+49.4331 	EXP 	window1: blendMode = 'avg'
+49.4542 	EXP 	stimuli: autoDraw = False
+49.4542 	EXP 	stimuli: text = u'probe'
+49.4542 	EXP 	stimuli: autoDraw = True
+49.4565 	EXP 	New trial (rep=6, index=13): {'stimulus': u'M', 'category': u'letter'}
+49.4678 	EXP 	window1: blendMode = 'avg'
+49.4908 	EXP 	stimuli: autoDraw = False
+49.4908 	EXP 	stimuli: text = u'M'
+49.4908 	EXP 	stimuli: autoDraw = True
+49.4914 	EXP 	window1: blendMode = 'avg'
+49.5125 	EXP 	New trial (rep=6, index=14): {'stimulus': 9, 'category': u'number'}
+49.5304 	EXP 	window1: blendMode = 'avg'
+49.5814 	EXP 	stimuli: autoDraw = False
+49.5814 	EXP 	stimuli: text = 9
+49.5814 	EXP 	stimuli: autoDraw = True
+49.5903 	EXP 	New trial (rep=6, index=15): {'stimulus': u'D', 'category': u'letter'}
+49.5984 	EXP 	window1: blendMode = 'avg'
+49.6267 	EXP 	stimuli: autoDraw = False
+49.6267 	EXP 	stimuli: text = u'D'
+49.6267 	EXP 	stimuli: autoDraw = True
+49.6276 	EXP 	New trial (rep=6, index=16): {'stimulus': u'Q', 'category': u'letter'}
+49.6328 	EXP 	window1: blendMode = 'avg'
+49.6532 	EXP 	stimuli: autoDraw = False
+49.6532 	EXP 	stimuli: text = u'Q'
+49.6532 	EXP 	stimuli: autoDraw = True
+49.6541 	EXP 	New trial (rep=6, index=17): {'stimulus': u'H', 'category': u'letter'}
+49.6609 	EXP 	window1: blendMode = 'avg'
+49.6754 	EXP 	stimuli: autoDraw = False
+49.6754 	EXP 	stimuli: text = u'H'
+49.6754 	EXP 	stimuli: autoDraw = True
+49.6760 	EXP 	window1: blendMode = 'avg'
+49.7097 	EXP 	New trial (rep=6, index=18): {'stimulus': u'S', 'category': u'letter'}
+49.7166 	EXP 	window1: blendMode = 'avg'
+49.7292 	EXP 	stimuli: autoDraw = False
+49.7292 	EXP 	stimuli: text = u'S'
+49.7292 	EXP 	stimuli: autoDraw = True
+49.7317 	EXP 	window1: blendMode = 'avg'
+49.7721 	EXP 	New trial (rep=6, index=19): {'stimulus': u'N', 'category': u'letter'}
+49.7804 	DATA 	Keypress: lctrl
+49.7817 	EXP 	window1: blendMode = 'avg'
+49.8252 	EXP 	stimuli: autoDraw = False
+49.8252 	EXP 	stimuli: text = u'N'
+49.8252 	EXP 	stimuli: autoDraw = True
+49.8265 	EXP 	New trial (rep=6, index=20): {'stimulus': 7, 'category': u'number'}
+49.8388 	EXP 	window1: blendMode = 'avg'
+49.8851 	EXP 	stimuli: autoDraw = False
+49.8851 	EXP 	stimuli: text = 7
+49.8851 	EXP 	stimuli: autoDraw = True
+49.8876 	EXP 	New trial (rep=6, index=21): {'stimulus': 8, 'category': u'number'}
+49.8958 	EXP 	window1: blendMode = 'avg'
+49.9062 	EXP 	stimuli: autoDraw = False
+49.9062 	EXP 	stimuli: text = 8
+49.9062 	EXP 	stimuli: autoDraw = True
+49.9080 	EXP 	New trial (rep=6, index=22): {'stimulus': u'R', 'category': u'letter'}
+49.9164 	DATA 	Keypress: c
+49.9168 	EXP 	window1: blendMode = 'avg'
+49.9788 	EXP 	stimuli: autoDraw = False
+49.9788 	EXP 	stimuli: text = u'R'
+49.9788 	EXP 	stimuli: autoDraw = True
+49.9797 	EXP 	New trial (rep=6, index=23): {'stimulus': u'Y', 'category': u'letter'}
+49.9851 	EXP 	window1: blendMode = 'avg'
+50.0261 	EXP 	stimuli: autoDraw = False
+50.0261 	EXP 	stimuli: text = u'Y'
+50.0261 	EXP 	stimuli: autoDraw = True
+50.0274 	EXP 	New trial (rep=6, index=24): {'stimulus': 3, 'category': u'number'}
+50.0325 	EXP 	window1: blendMode = 'avg'
+50.0621 	EXP 	stimuli: autoDraw = False
+50.0621 	EXP 	stimuli: text = 3
+50.0621 	EXP 	stimuli: autoDraw = True
+50.0631 	EXP 	New trial (rep=6, index=25): {'stimulus': 6, 'category': u'number'}
+50.0807 	EXP 	window1: blendMode = 'avg'
+50.1213 	EXP 	stimuli: autoDraw = False
+50.1213 	EXP 	stimuli: text = 6
+50.1213 	EXP 	stimuli: autoDraw = True
+50.1341 	EXP 	New trial (rep=6, index=26): {'stimulus': u'A', 'category': u'letter'}
+50.1414 	EXP 	window1: blendMode = 'avg'
+50.1764 	EXP 	stimuli: autoDraw = False
+50.1764 	EXP 	stimuli: text = u'A'
+50.1764 	EXP 	stimuli: autoDraw = True
+50.1771 	EXP 	New trial (rep=6, index=27): {'stimulus': u'T', 'category': u'letter'}
+50.1838 	EXP 	window1: blendMode = 'avg'
+50.1946 	EXP 	stimuli: autoDraw = False
+50.1946 	EXP 	stimuli: text = u'T'
+50.1946 	EXP 	stimuli: autoDraw = True
+50.1952 	EXP 	window1: blendMode = 'avg'
+50.2580 	EXP 	New trial (rep=6, index=28): {'stimulus': u'Z', 'category': u'letter'}
+50.2661 	EXP 	New trial (rep=6, index=29): {'stimulus': u'G', 'category': u'letter'}
+50.2811 	EXP 	window1: blendMode = 'avg'
+50.2925 	EXP 	stimuli: autoDraw = False
+50.2925 	EXP 	stimuli: text = u'Z'
+50.2925 	EXP 	stimuli: autoDraw = False
+50.2925 	EXP 	stimuli: text = u'G'
+50.2925 	EXP 	stimuli: autoDraw = True
+50.2932 	EXP 	window1: blendMode = 'avg'
+50.3405 	EXP 	New trial (rep=6, index=30): {'stimulus': u'E', 'category': u'letter'}
+50.3464 	EXP 	window1: blendMode = 'avg'
+50.3648 	EXP 	stimuli: autoDraw = False
+50.3648 	EXP 	stimuli: text = u'E'
+50.3648 	EXP 	stimuli: autoDraw = True
+50.3774 	EXP 	New trial (rep=6, index=31): {'stimulus': u'K', 'category': u'letter'}
+50.3824 	EXP 	window1: blendMode = 'avg'
+50.3930 	EXP 	stimuli: autoDraw = False
+50.3930 	EXP 	stimuli: text = u'K'
+50.3930 	EXP 	stimuli: autoDraw = True
+50.3936 	EXP 	window1: blendMode = 'avg'
+50.4557 	EXP 	New trial (rep=6, index=32): {'stimulus': u'W', 'category': u'letter'}
+50.4618 	EXP 	New trial (rep=6, index=33): {'stimulus': u'P', 'category': u'letter'}
+50.4674 	EXP 	window1: blendMode = 'avg'
+50.4902 	EXP 	stimuli: autoDraw = False
+50.4902 	EXP 	stimuli: text = u'W'
+50.4902 	EXP 	stimuli: autoDraw = False
+50.4902 	EXP 	stimuli: text = u'P'
+50.4902 	EXP 	stimuli: autoDraw = True
+50.4913 	EXP 	window1: blendMode = 'avg'
+50.5086 	EXP 	New trial (rep=6, index=34): {'stimulus': u'C', 'category': u'letter'}
+50.5167 	EXP 	window1: blendMode = 'avg'
+50.5316 	EXP 	stimuli: autoDraw = False
+50.5316 	EXP 	stimuli: text = u'C'
+50.5316 	EXP 	stimuli: autoDraw = True
+50.5321 	EXP 	window1: blendMode = 'avg'
+50.5641 	EXP 	New trial (rep=6, index=35): {'stimulus': u'L', 'category': u'letter'}
+50.5774 	EXP 	window1: blendMode = 'avg'
+50.5879 	EXP 	stimuli: autoDraw = False
+50.5879 	EXP 	stimuli: text = u'L'
+50.5879 	EXP 	stimuli: autoDraw = True
+50.5885 	EXP 	window1: blendMode = 'avg'
+50.6590 	EXP 	New trial (rep=6, index=36): {'stimulus': 1, 'category': u'number'}
+50.6672 	EXP 	New trial (rep=7, index=0): {'stimulus': 9, 'category': u'number'}
+50.6760 	EXP 	window1: blendMode = 'avg'
+50.6980 	EXP 	stimuli: autoDraw = False
+50.6980 	EXP 	stimuli: text = 1
+50.6980 	EXP 	stimuli: autoDraw = False
+50.6980 	EXP 	stimuli: text = 9
+50.6980 	EXP 	stimuli: autoDraw = True
+50.7018 	EXP 	window1: blendMode = 'avg'
+50.7387 	EXP 	New trial (rep=7, index=1): {'stimulus': u'U', 'category': u'letter'}
+50.7448 	EXP 	window1: blendMode = 'avg'
+50.7707 	EXP 	stimuli: autoDraw = False
+50.7707 	EXP 	stimuli: text = u'U'
+50.7707 	EXP 	stimuli: autoDraw = True
+50.7764 	EXP 	New trial (rep=7, index=2): {'stimulus': None, 'category': u'blank'}
+50.7821 	EXP 	window1: blendMode = 'avg'
+50.7918 	EXP 	stimuli: autoDraw = False
+50.7918 	EXP 	stimuli: text = u'U'
+50.7918 	EXP 	stimuli: autoDraw = True
+50.7924 	EXP 	window1: blendMode = 'avg'
+50.8746 	EXP 	New trial (rep=7, index=3): {'stimulus': u'C', 'category': u'letter'}
+50.8945 	EXP 	New trial (rep=7, index=4): {'stimulus': u'L', 'category': u'letter'}
+50.9010 	EXP 	New trial (rep=7, index=5): {'stimulus': 2, 'category': u'number'}
+50.9125 	EXP 	window1: blendMode = 'avg'
+50.9377 	EXP 	stimuli: autoDraw = False
+50.9377 	EXP 	stimuli: text = u'C'
+50.9377 	EXP 	stimuli: autoDraw = False
+50.9377 	EXP 	stimuli: text = u'L'
+50.9377 	EXP 	stimuli: autoDraw = False
+50.9377 	EXP 	stimuli: text = 2
+50.9377 	EXP 	stimuli: autoDraw = True
+50.9427 	EXP 	window1: blendMode = 'avg'
+50.9614 	EXP 	New trial (rep=7, index=6): {'stimulus': u'M', 'category': u'letter'}
+50.9664 	EXP 	window1: blendMode = 'avg'
+50.9802 	EXP 	stimuli: autoDraw = False
+50.9802 	EXP 	stimuli: text = u'M'
+50.9802 	EXP 	stimuli: autoDraw = True
+50.9807 	EXP 	window1: blendMode = 'avg'
+51.0245 	EXP 	New trial (rep=7, index=7): {'stimulus': u'D', 'category': u'letter'}
+51.0292 	EXP 	window1: blendMode = 'avg'
+51.0464 	EXP 	stimuli: autoDraw = False
+51.0464 	EXP 	stimuli: text = u'D'
+51.0464 	EXP 	stimuli: autoDraw = True
+51.0470 	EXP 	window1: blendMode = 'avg'
+51.0800 	EXP 	New trial (rep=7, index=8): {'stimulus': 8, 'category': u'number'}
+51.0946 	EXP 	window1: blendMode = 'avg'
+51.1113 	EXP 	stimuli: autoDraw = False
+51.1113 	EXP 	stimuli: text = 8
+51.1113 	EXP 	stimuli: autoDraw = True
+51.1120 	EXP 	New trial (rep=7, index=9): {'stimulus': u'V', 'category': u'letter'}
+51.1225 	EXP 	window1: blendMode = 'avg'
+51.1757 	EXP 	stimuli: autoDraw = False
+51.1757 	EXP 	stimuli: text = u'V'
+51.1757 	EXP 	stimuli: autoDraw = True
+51.1765 	EXP 	New trial (rep=7, index=10): {'stimulus': 1, 'category': u'number'}
+51.1822 	EXP 	window1: blendMode = 'avg'
+51.1917 	EXP 	stimuli: autoDraw = False
+51.1917 	EXP 	stimuli: text = 1
+51.1917 	EXP 	stimuli: autoDraw = True
+51.1922 	EXP 	window1: blendMode = 'avg'
+51.2576 	EXP 	New trial (rep=7, index=11): {'stimulus': u'T', 'category': u'letter'}
+51.2635 	EXP 	New trial (rep=7, index=12): {'stimulus': u'G', 'category': u'letter'}
+51.2685 	DATA 	Keypress: escape
