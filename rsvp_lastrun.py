@@ -92,8 +92,7 @@ text = visual.TextStim(win=win, name='text',
     color=u'white', colorSpace='rgb', opacity=1,
     depth=0.0);
 
-# initialize components for Trial_stim
-
+# initialize components for Trial_stim ##JE
 class Trial_stim:
     def __init__(self, block_count, trial_count, speed):
         self.block_count = block_count
@@ -114,9 +113,6 @@ class Trial_stim:
 
         if num_stim == 1 and random.choice(range(1,6)) == 1:
             self.stimuli[random.choice(range(len(self.stimuli)))] = ' '
-
-        print(len(self.stimuli))
-        print(self.stimuli)
 
 
 # Create some handy timers
