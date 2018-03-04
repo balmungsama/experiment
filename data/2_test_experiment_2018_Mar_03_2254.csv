@@ -1,0 +1,5 @@
+block,sep_dur,Tx,trial,stimulus,cond,block.thisRepN,block.thisTrialN,block.thisN,block.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,stim.thisRepN,stim.thisTrialN,stim.thisN,stim.thisIndex,date,frameRate,expName,session,participant,
+1,short,t1,11,D,distractor,0,0,0,0,0,0,0,0,0,0,0,10,2018_Mar_03_2254,59.98152348319523,test_experiment,001,2,
+1,short,t1,10,I,distractor,0,0,0,0,0,0,0,0,0,1,1,9,2018_Mar_03_2254,59.98152348319523,test_experiment,001,2,
+1,short,t1,15,D,distractor,0,0,0,0,0,0,0,0,0,2,2,14,2018_Mar_03_2254,59.98152348319523,test_experiment,001,2,
+1,short,t1,5,F,distractor,0,0,0,0,0,0,0,0,0,3,3,4,2018_Mar_03_2254,59.98152348319523,test_experiment,001,2,
