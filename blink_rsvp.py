@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy2 Experiment Builder (v1.90.1),
-    on May 22, 2018, at 11:25
+    on May 22, 2018, at 11:14
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -11,7 +11,7 @@ If you publish work using this script please cite the PsychoPy publications:
 """
 
 from __future__ import absolute_import, division
-from psychopy import locale_setup, sound, gui, visual, core, data, event, logging, clock
+from psychopy import locale_setup, sound, gui, visual, core, data, event, logging, clock, parallel
 from psychopy.constants import (NOT_STARTED, STARTED, PLAYING, PAUSED,
                                 STOPPED, FINISHED, PRESSED, RELEASED, FOREVER)
 import numpy as np  # whole numpy lib is available, prepend 'np.'
@@ -21,12 +21,19 @@ from numpy.random import random, randint, normal, shuffle
 import os  # handy system and path functions
 import sys  # to get file system encoding
 
+sendTTL = False
+parallelPortAddress = 49168
+
+if sendTTL:
+    port = parallel.ParallelPort(address = parallelPortAddress)
+    port.setData(0) #make sure all pins are low
+
 # Ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__)).decode(sys.getfilesystemencoding())
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-expName = 'test_experiment'  # from the Builder filename that created this script
+expName = u'test_experiment'  # from the Builder filename that created this script
 expInfo = {u'session': u'001', u'participant': u''}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False:
@@ -53,9 +60,9 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 
 # Setup the Window
 win = visual.Window(
-    size=[1851, 1234], fullscr=True, screen=0,
-    allowGUI=False, allowStencil=False,
-    monitor='testMonitor', color='white', colorSpace='rgb',
+    size=[400, 400], fullscr=False, screen=0,
+    allowGUI=True, allowStencil=False,
+    monitor=u'testMonitor', color=u'white', colorSpace='rgb',
     blendMode='avg', useFBO=True)
 # store frame rate of monitor if we can measure it
 expInfo['frameRate'] = win.getActualFrameRate()
@@ -73,7 +80,7 @@ import string
 
 # keeping track
 trial_count = 0
-block_count = 0 
+block_count = 0
 
 # USER_DEFINED OPTIONS
 stim_dur = 50 #duration of stimulus presentation in ms
@@ -83,17 +90,17 @@ trialType_stim = ['t1', 't2'] #stimulus ondition types
 sep_short = 4 # number of stimuli that should seperate T1 from T2
 sep_long  = 8
 
-#create an array of short/long interval conditions  
+#create an array of short/long interval conditions
 
-trialType_sep  = np.repeat(a = ['short', 'long'], repeats = [192, 72]) 
+trialType_sep  = np.repeat(a = ['short', 'long'], repeats = [192, 72])
 
-trialType_sep  = np.repeat(a = trialType_sep, repeats = len(trialType_stim)) 
+trialType_sep  = np.repeat(a = trialType_sep, repeats = len(trialType_stim))
 
-trialType_stim = np.repeat(a = trialType_stim, repeats = 192 + 72)  
+trialType_stim = np.repeat(a = trialType_stim, repeats = 192 + 72)
 
-#create an array of short/long interval conditions  
+#create an array of short/long interval conditions
 
-trialType_mat  = np.stack((trialType_stim, trialType_sep)) 
+trialType_mat  = np.stack((trialType_stim, trialType_sep))
 
 trialType_mat = np.transpose(trialType_mat)
 
@@ -105,7 +112,7 @@ instructionsClock = core.Clock()
 instruct_p1 = visual.TextStim(win=win, name='instruct_p1',
     text='Hello. Thank you for coming in today. \n\n For this task, you will be asked to observe a series of characters flash on the screen and try to identify any number(s) you see in the stream. The characters will appear quickly, so you will have to pay close attention. \n\n Sometimes a stream of characters will contain two numbers, and other times it will only contain one. Each stream will contain 15 to 19 characters and last for about a second.  \n\n When two numbers are presented, please enter the numbers via keyboard in the order they were presented. When only one number is presented, enter in the number you saw along with any random number. \n\n If you at any point are not sure which number(s) were presented, you can just guess. \n\n You will be presented two blocks of this task; each block lasting between 13 to 15 minutes.\n\n\n                                                        Press SPACE to continue.',
     font='Arial',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0,
     color='black', colorSpace='rgb', opacity=1,
     depth=0.0);
 
@@ -115,19 +122,19 @@ ready_blockClock = core.Clock()
 ready = visual.TextStim(win=win, name='ready',
     text='default text',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0,
     color='black', colorSpace='rgb', opacity=1,
     depth=-1.0);
 go = visual.TextStim(win=win, name='go',
     text='GO',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0,
     color='black', colorSpace='rgb', opacity=1,
     depth=-2.0);
 gap = visual.TextStim(win=win, name='gap',
     text=None,
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0,
     color='white', colorSpace='rgb', opacity=1,
     depth=-3.0);
 
@@ -137,7 +144,7 @@ trial_defClock = core.Clock()
 text = visual.TextStim(win=win, name='text',
     text='default text',
     font='Arial',
-    pos=(0, 0), height=2, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=2, wrapWidth=None, ori=0,
     color='grey', colorSpace='rgb', opacity=0,
     depth=-1.0);
 
@@ -146,13 +153,13 @@ disp_stimulusClock = core.Clock()
 text_2 = visual.TextStim(win=win, name='text_2',
     text='default text',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0,
     color='black', colorSpace='rgb', opacity=1,
     depth=0.0);
 mask = visual.TextStim(win=win, name='mask',
     text=' ',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0,
     color='white', colorSpace='rgb', opacity=1,
     depth=-1.0);
 
@@ -161,7 +168,7 @@ rec_resp_T1Clock = core.Clock()
 Probe_t1 = visual.TextStim(win=win, name='Probe_t1',
     text='What numbers did you see?',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0,
     color='black', colorSpace='rgb', opacity=1,
     depth=0.0);
 
@@ -170,7 +177,7 @@ rec_resp_T2Clock = core.Clock()
 Probe_t2 = visual.TextStim(win=win, name='Probe_t2',
     text='What numbers did you see?',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0,
     color='black', colorSpace='rgb', opacity=1,
     depth=0.0);
 
@@ -179,13 +186,13 @@ delayClock = core.Clock()
 blank = visual.TextStim(win=win, name='blank',
     text=None,
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0,
     color='white', colorSpace='rgb', opacity=1,
     depth=0.0);
 
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
-routineTimer = core.CountdownTimer()  # to track time remaining of each (non-slip) routine 
+routineTimer = core.CountdownTimer()  # to track time remaining of each (non-slip) routine
 
 # ------Prepare to start Routine "code_Init"-------
 t = 0
@@ -206,8 +213,8 @@ while continueRoutine:
     t = code_InitClock.getTime()
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
-    
-    
+
+
     # check if all components have finished
     if not continueRoutine:  # a component has requested a forced-end of Routine
         break
@@ -216,11 +223,11 @@ while continueRoutine:
         if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
             continueRoutine = True
             break  # at least one component has not yet finished
-    
+
     # check for quit (the Esc key)
     if endExpNow or event.getKeys(keyList=["escape"]):
         core.quit()
-    
+
     # refresh the screen
     if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
         win.flip()
@@ -252,14 +259,14 @@ while continueRoutine:
     t = instructionsClock.getTime()
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
-    
+
     # *instruct_p1* updates
     if t >= 0.0 and instruct_p1.status == NOT_STARTED:
         # keep track of start time/frame for later
         instruct_p1.tStart = t
         instruct_p1.frameNStart = frameN  # exact frame index
         instruct_p1.setAutoDraw(True)
-    
+
     # *adv_p1* updates
     if t >= 0.0 and adv_p1.status == NOT_STARTED:
         # keep track of start time/frame for later
@@ -270,14 +277,14 @@ while continueRoutine:
         event.clearEvents(eventType='keyboard')
     if adv_p1.status == STARTED:
         theseKeys = event.getKeys(keyList=['space'])
-        
+
         # check for quit:
         if "escape" in theseKeys:
             endExpNow = True
         if len(theseKeys) > 0:  # at least one key was pressed
             # a response ends the routine
             continueRoutine = False
-    
+
     # check if all components have finished
     if not continueRoutine:  # a component has requested a forced-end of Routine
         break
@@ -286,11 +293,11 @@ while continueRoutine:
         if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
             continueRoutine = True
             break  # at least one component has not yet finished
-    
+
     # check for quit (the Esc key)
     if endExpNow or event.getKeys(keyList=["escape"]):
         core.quit()
-    
+
     # refresh the screen
     if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
         win.flip()
@@ -303,7 +310,7 @@ for thisComponent in instructionsComponents:
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
-block = data.TrialHandler(nReps=2, method='random', 
+block = data.TrialHandler(nReps=2, method='random',
     extraInfo=expInfo, originPath=-1,
     trialList=[None],
     seed=None, name='block')
@@ -320,7 +327,7 @@ for thisBlock in block:
     if thisBlock != None:
         for paramName in thisBlock:
             exec('{} = thisBlock[paramName]'.format(paramName))
-    
+
     # ------Prepare to start Routine "ready_block"-------
     t = 0
     ready_blockClock.reset()  # clock
@@ -329,7 +336,7 @@ for thisBlock in block:
     routineTimer.add(1.700000)
     # update component parameters for each repeat
     block_count = block_count + 1
-    
+
     ready_txt = "Block " +  str(block_count)
     ready.setText(ready_txt + '\n\n' + "Ready?")
     # keep track of which components have finished
@@ -337,15 +344,15 @@ for thisBlock in block:
     for thisComponent in ready_blockComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
-    
+
     # -------Start Routine "ready_block"-------
     while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = ready_blockClock.getTime()
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
-        
-        
+
+
         # *ready* updates
         if t >= 0.0 and ready.status == NOT_STARTED:
             # keep track of start time/frame for later
@@ -355,7 +362,7 @@ for thisBlock in block:
         frameRemains = 0.0 + 1- win.monitorFramePeriod * 0.75  # most of one frame period left
         if ready.status == STARTED and t >= frameRemains:
             ready.setAutoDraw(False)
-        
+
         # *go* updates
         if t >= 1 and go.status == NOT_STARTED:
             # keep track of start time/frame for later
@@ -365,7 +372,7 @@ for thisBlock in block:
         frameRemains = 1 + 0.5- win.monitorFramePeriod * 0.75  # most of one frame period left
         if go.status == STARTED and t >= frameRemains:
             go.setAutoDraw(False)
-        
+
         # *gap* updates
         if t >= 1.5 and gap.status == NOT_STARTED:
             # keep track of start time/frame for later
@@ -375,7 +382,7 @@ for thisBlock in block:
         frameRemains = 1.5 + .2- win.monitorFramePeriod * 0.75  # most of one frame period left
         if gap.status == STARTED and t >= frameRemains:
             gap.setAutoDraw(False)
-        
+
         # check if all components have finished
         if not continueRoutine:  # a component has requested a forced-end of Routine
             break
@@ -384,23 +391,23 @@ for thisBlock in block:
             if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
                 continueRoutine = True
                 break  # at least one component has not yet finished
-        
+
         # check for quit (the Esc key)
         if endExpNow or event.getKeys(keyList=["escape"]):
             core.quit()
-        
+
         # refresh the screen
         if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
             win.flip()
-    
+
     # -------Ending Routine "ready_block"-------
     for thisComponent in ready_blockComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    
-    
+
+
     # set up handler to look after randomisation of conditions etc
-    trials = data.TrialHandler(nReps=ntrials, method='random', 
+    trials = data.TrialHandler(nReps=ntrials, method='random',
         extraInfo=expInfo, originPath=-1,
         trialList=[None],
         seed=None, name='trials')
@@ -410,14 +417,14 @@ for thisBlock in block:
     if thisTrial != None:
         for paramName in thisTrial:
             exec('{} = thisTrial[paramName]'.format(paramName))
-    
+
     for thisTrial in trials:
         currentLoop = trials
         # abbreviate parameter names if possible (e.g. rgb = thisTrial.rgb)
         if thisTrial != None:
             for paramName in thisTrial:
                 exec('{} = thisTrial[paramName]'.format(paramName))
-        
+
         # ------Prepare to start Routine "trial_def"-------
         t = 0
         trial_defClock.reset()  # clock
@@ -428,11 +435,11 @@ for thisBlock in block:
         trial_count = trial_count + 1
         stim_count  = 0 # keep track of which stimulus to display
         nstim = randint(15,19)
-        
+
         trialType_cur = randint(0, np.shape(trialType_mat)[0]-1) # determine type of tral (eg. T2-present, long seperation)
         trialType_cur = trialType_mat[trialType_cur]
         stim_array    = [rand.choice(string.ascii_uppercase) for _ in range(nstim)] # begin building array of stimuli to be shown in this trial
-        
+
         # determine the postions for the Target stimuli
         if trialType_cur[1] == 'long':
             t1_pos = np.random.choice(range(1,nstim - sep_long))
@@ -440,36 +447,36 @@ for thisBlock in block:
         elif trialType_cur[1] == 'short':
             t1_pos = np.random.choice(range(1,nstim - sep_short))
             t2_pos = t1_pos + sep_short
-        
+
         # place the T1 target number into the stimulus array
         stim_array[t1_pos - 1] = np.random.choice(range(1,9))
-        
+
         # put T2 in the stimulus vector
         if trialType_cur[0] == 't2':
             stim_array[t2_pos - 1] = np.random.choice(range(1,9))
         elif trialType_cur[0] == 't1':
             stim_array[t2_pos - 1] = ' '
-        
+
         # the 20% chance of the trial including a blank stimulus
         if trialType_cur[0] == 't2':
             roll_die = np.random.choice(range(1,5))
             if roll_die == 1:
-                blank_pos = range(1,nstim) 
+                blank_pos = range(1,nstim)
                 blank_pos.remove(t1_pos)
                 blank_pos.remove(t2_pos)
                 blank_pos = np.random.choice(blank_pos)
-                
+
                 stim_array[blank_pos - 1] = ' '
-        
+
         # create the columns to be saved
         sep_col   = [trialType_cur[1] for _ in range(nstim)]
         tnum_col  = [trialType_cur[0] for _ in range(nstim)]
         trial_col = [str(trial_count) for _ in range(nstim)]
-        tnum_col  = [trialType_cur[0] for _ in range(nstim)] 
+        tnum_col  = [trialType_cur[0] for _ in range(nstim)]
         stimCount_col = range(1,nstim + 1)
-        
-        stim_cond = [] 
-        for elem in range(len(stim_array)):     
+
+        stim_cond = []
+        for elem in range(len(stim_array)):
             # print(type(stim_array[elem]))
             if stim_array[elem] == ' ':
                 stim_cond.append('mask')
@@ -477,12 +484,12 @@ for thisBlock in block:
                 stim_cond.append('target')
             elif type(stim_array[elem]) is str:
                 stim_cond.append('distractor')
-        
+
         # put this data into a dataframe
         trial_tab = np.vstack((trial_col, sep_col, tnum_col, stimCount_col, stim_array, stim_cond))
         trial_tab = np.transpose(trial_tab)
         trial_tab = pd.DataFrame(trial_tab)
-        
+
         # save dataframe to conditions *.csv file
         trial_tab.to_csv("tmp_stimuli.csv", header = ['block', 'sep_dur', 'Tx', 'trial', 'stimulus', 'cond'], index = False)
         text.setText(trial_count)
@@ -491,15 +498,15 @@ for thisBlock in block:
         for thisComponent in trial_defComponents:
             if hasattr(thisComponent, 'status'):
                 thisComponent.status = NOT_STARTED
-        
+
         # -------Start Routine "trial_def"-------
         while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = trial_defClock.getTime()
             frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
             # update/draw components on each frame
-            
-            
+
+
             # *text* updates
             if t >= 0.0 and text.status == NOT_STARTED:
                 # keep track of start time/frame for later
@@ -509,7 +516,7 @@ for thisBlock in block:
             frameRemains = 0.0 + 0.2- win.monitorFramePeriod * 0.75  # most of one frame period left
             if text.status == STARTED and t >= frameRemains:
                 text.setAutoDraw(False)
-            
+
             # check if all components have finished
             if not continueRoutine:  # a component has requested a forced-end of Routine
                 break
@@ -518,23 +525,23 @@ for thisBlock in block:
                 if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
                     continueRoutine = True
                     break  # at least one component has not yet finished
-            
+
             # check for quit (the Esc key)
             if endExpNow or event.getKeys(keyList=["escape"]):
                 core.quit()
-            
+
             # refresh the screen
             if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
                 win.flip()
-        
+
         # -------Ending Routine "trial_def"-------
         for thisComponent in trial_defComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        
-        
+
+
         # set up handler to look after randomisation of conditions etc
-        stim = data.TrialHandler(nReps=1, method='random', 
+        stim = data.TrialHandler(nReps=1, method='random',
             extraInfo=expInfo, originPath=-1,
             trialList=data.importConditions('tmp_stimuli.csv'),
             seed=None, name='stim')
@@ -544,14 +551,28 @@ for thisBlock in block:
         if thisStim != None:
             for paramName in thisStim:
                 exec('{} = thisStim[paramName]'.format(paramName))
-        
+
+
+        trialOnsCount = 0
+        targetList = []
         for thisStim in stim:
+            frameCount=0
+            if trialOnsCount == 0 and sendTTL:
+                win.callOnFlip(port.setData, 1)
+            elif trialOnsCount == 0 and not sendTTL:
+                print "TTL: 1"
             currentLoop = stim
             # abbreviate parameter names if possible (e.g. rgb = thisStim.rgb)
             if thisStim != None:
                 for paramName in thisStim:
                     exec('{} = thisStim[paramName]'.format(paramName))
-            
+                if thisStim['cond'] == 'target' and frameCount == 0:
+                    targetList.append(stimulus)
+                    numTTL = int(stimulus) + len(targetList) * 10
+                    if sendTTL:
+                        win.callOnFlip(port.setData, numTTL)
+                    else:
+                        print "TTL {}".format(numTTL)
             # ------Prepare to start Routine "disp_stimulus"-------
             t = 0
             disp_stimulusClock.reset()  # clock
@@ -565,14 +586,14 @@ for thisBlock in block:
             for thisComponent in disp_stimulusComponents:
                 if hasattr(thisComponent, 'status'):
                     thisComponent.status = NOT_STARTED
-            
+
             # -------Start Routine "disp_stimulus"-------
             while continueRoutine and routineTimer.getTime() > 0:
                 # get current time
                 t = disp_stimulusClock.getTime()
                 frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
                 # update/draw components on each frame
-                
+
                 # *text_2* updates
                 if t >= 0.0 and text_2.status == NOT_STARTED:
                     # keep track of start time/frame for later
@@ -582,7 +603,7 @@ for thisBlock in block:
                 frameRemains = 0.0 + 0.05- win.monitorFramePeriod * 0.75  # most of one frame period left
                 if text_2.status == STARTED and t >= frameRemains:
                     text_2.setAutoDraw(False)
-                
+
                 # *mask* updates
                 if t >= .05 and mask.status == NOT_STARTED:
                     # keep track of start time/frame for later
@@ -592,7 +613,7 @@ for thisBlock in block:
                 frameRemains = .05 + 0.034- win.monitorFramePeriod * 0.75  # most of one frame period left
                 if mask.status == STARTED and t >= frameRemains:
                     mask.setAutoDraw(False)
-                
+
                 # check if all components have finished
                 if not continueRoutine:  # a component has requested a forced-end of Routine
                     break
@@ -601,24 +622,32 @@ for thisBlock in block:
                     if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
                         continueRoutine = True
                         break  # at least one component has not yet finished
-                
+
                 # check for quit (the Esc key)
                 if endExpNow or event.getKeys(keyList=["escape"]):
                     core.quit()
-                
+
                 # refresh the screen
                 if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                    \
+                    if frameCount == 0:
+                        print stimulus
+                    frameCount = frameCount + 1
+                    trialOnsCount += 1
                     win.flip()
-            
+
             # -------Ending Routine "disp_stimulus"-------
             for thisComponent in disp_stimulusComponents:
                 if hasattr(thisComponent, "setAutoDraw"):
                     thisComponent.setAutoDraw(False)
             thisExp.nextEntry()
-            
+
         # completed 1 repeats of 'stim'
-        
-        
+        if sendTTL:
+            port.setData(255)
+        else:
+            print "TTL 255"
+
         # ------Prepare to start Routine "rec_resp_T1"-------
         t = 0
         rec_resp_T1Clock.reset()  # clock
@@ -631,21 +660,21 @@ for thisBlock in block:
         for thisComponent in rec_resp_T1Components:
             if hasattr(thisComponent, 'status'):
                 thisComponent.status = NOT_STARTED
-        
+
         # -------Start Routine "rec_resp_T1"-------
         while continueRoutine:
             # get current time
             t = rec_resp_T1Clock.getTime()
             frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
             # update/draw components on each frame
-            
+
             # *Probe_t1* updates
             if t >= 1 and Probe_t1.status == NOT_STARTED:
                 # keep track of start time/frame for later
                 Probe_t1.tStart = t
                 Probe_t1.frameNStart = frameN  # exact frame index
                 Probe_t1.setAutoDraw(True)
-            
+
             # *usr_input_t1* updates
             if t >= 1 and usr_input_t1.status == NOT_STARTED:
                 # keep track of start time/frame for later
@@ -657,17 +686,21 @@ for thisBlock in block:
                 event.clearEvents(eventType='keyboard')
             if usr_input_t1.status == STARTED:
                 theseKeys = event.getKeys(keyList=['1', '2', '3', '4', '5', '6', '7', '8', '9'])
-                
+
                 # check for quit:
                 if "escape" in theseKeys:
                     endExpNow = True
                 if len(theseKeys) > 0:  # at least one key was pressed
+                    if sendTTL:
+                        port.setData(int(theseKeys[0]) + 100)
+                    else:
+                        print "TTL {}".format(int(theseKeys[0]) + 100)
                     if usr_input_t1.keys == []:  # then this was the first keypress
                         usr_input_t1.keys = theseKeys[0]  # just the first key pressed
                         usr_input_t1.rt = usr_input_t1.clock.getTime()
                         # a response ends the routine
                         continueRoutine = False
-            
+
             # check if all components have finished
             if not continueRoutine:  # a component has requested a forced-end of Routine
                 break
@@ -676,15 +709,15 @@ for thisBlock in block:
                 if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
                     continueRoutine = True
                     break  # at least one component has not yet finished
-            
+
             # check for quit (the Esc key)
             if endExpNow or event.getKeys(keyList=["escape"]):
                 core.quit()
-            
+
             # refresh the screen
             if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
                 win.flip()
-        
+
         # -------Ending Routine "rec_resp_T1"-------
         for thisComponent in rec_resp_T1Components:
             if hasattr(thisComponent, "setAutoDraw"):
@@ -697,7 +730,7 @@ for thisBlock in block:
             trials.addData('usr_input_t1.rt', usr_input_t1.rt)
         # the Routine "rec_resp_T1" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
-        
+
         # ------Prepare to start Routine "rec_resp_T2"-------
         t = 0
         rec_resp_T2Clock.reset()  # clock
@@ -710,21 +743,21 @@ for thisBlock in block:
         for thisComponent in rec_resp_T2Components:
             if hasattr(thisComponent, 'status'):
                 thisComponent.status = NOT_STARTED
-        
+
         # -------Start Routine "rec_resp_T2"-------
         while continueRoutine:
             # get current time
             t = rec_resp_T2Clock.getTime()
             frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
             # update/draw components on each frame
-            
+
             # *Probe_t2* updates
             if t >= 0.0 and Probe_t2.status == NOT_STARTED:
                 # keep track of start time/frame for later
                 Probe_t2.tStart = t
                 Probe_t2.frameNStart = frameN  # exact frame index
                 Probe_t2.setAutoDraw(True)
-            
+
             # *usr_input_t2* updates
             if t >= 0.0 and usr_input_t2.status == NOT_STARTED:
                 # keep track of start time/frame for later
@@ -736,17 +769,21 @@ for thisBlock in block:
                 event.clearEvents(eventType='keyboard')
             if usr_input_t2.status == STARTED:
                 theseKeys = event.getKeys(keyList=['1', '2', '3', '4', '5', '6', '7', '8', '9'])
-                
+
                 # check for quit:
                 if "escape" in theseKeys:
                     endExpNow = True
                 if len(theseKeys) > 0:  # at least one key was pressed
+                    if sendTTL:
+                        port.setData(int(theseKeys[0]) + 200)
+                    else:
+                        print "TTL {}".format(int(theseKeys[0]) + 200)
                     if usr_input_t2.keys == []:  # then this was the first keypress
                         usr_input_t2.keys = theseKeys[0]  # just the first key pressed
                         usr_input_t2.rt = usr_input_t2.clock.getTime()
                         # a response ends the routine
                         continueRoutine = False
-            
+
             # check if all components have finished
             if not continueRoutine:  # a component has requested a forced-end of Routine
                 break
@@ -755,15 +792,15 @@ for thisBlock in block:
                 if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
                     continueRoutine = True
                     break  # at least one component has not yet finished
-            
+
             # check for quit (the Esc key)
             if endExpNow or event.getKeys(keyList=["escape"]):
                 core.quit()
-            
+
             # refresh the screen
             if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
                 win.flip()
-        
+
         # -------Ending Routine "rec_resp_T2"-------
         for thisComponent in rec_resp_T2Components:
             if hasattr(thisComponent, "setAutoDraw"):
@@ -776,7 +813,7 @@ for thisBlock in block:
             trials.addData('usr_input_t2.rt', usr_input_t2.rt)
         # the Routine "rec_resp_T2" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
-        
+
         # ------Prepare to start Routine "delay"-------
         t = 0
         delayClock.reset()  # clock
@@ -789,14 +826,14 @@ for thisBlock in block:
         for thisComponent in delayComponents:
             if hasattr(thisComponent, 'status'):
                 thisComponent.status = NOT_STARTED
-        
+
         # -------Start Routine "delay"-------
         while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = delayClock.getTime()
             frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
             # update/draw components on each frame
-            
+
             # *blank* updates
             if t >= 0.0 and blank.status == NOT_STARTED:
                 # keep track of start time/frame for later
@@ -806,7 +843,7 @@ for thisBlock in block:
             frameRemains = 0.0 + 0.2- win.monitorFramePeriod * 0.75  # most of one frame period left
             if blank.status == STARTED and t >= frameRemains:
                 blank.setAutoDraw(False)
-            
+
             # check if all components have finished
             if not continueRoutine:  # a component has requested a forced-end of Routine
                 break
@@ -815,25 +852,25 @@ for thisBlock in block:
                 if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
                     continueRoutine = True
                     break  # at least one component has not yet finished
-            
+
             # check for quit (the Esc key)
             if endExpNow or event.getKeys(keyList=["escape"]):
                 core.quit()
-            
+
             # refresh the screen
             if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
                 win.flip()
-        
+
         # -------Ending Routine "delay"-------
         for thisComponent in delayComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
         thisExp.nextEntry()
-        
+
     # completed ntrials repeats of 'trials'
-    
+
     thisExp.nextEntry()
-    
+
 # completed 2 repeats of 'block'
 
 

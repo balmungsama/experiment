@@ -1,0 +1,4 @@
+3.0552 	WARNING 	unknown type:participant
+3.0553 	WARNING 	unknown type:session
+3.0564 	WARNING 	Monitor specification not found. Creating a temporary one...
+3.0582 	WARNING 	User requested fullscreen with size [3240 2160], but screen is actually [1851, 1234]. Using actual size
